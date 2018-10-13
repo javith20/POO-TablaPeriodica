@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -26,14 +27,8 @@ public class interfazTabla extends javax.swing.JFrame {
      */
     public interfazTabla() {
         initComponents();
-        JButton[] arrBtn = new JButton[9];//arreglo de botones
-        arrBtn[0] = this.btn1;
-        Component[] component = this.getComponents();
-
-        for (int i = 0; i < component.length; i++) {
-            component[i].setEnabled(false);
-
-        }
+      
+        rsscalelabel.RSScaleLabel.setScaleLabel(fondo,"tabla.jpg");
 
     }
 
@@ -48,666 +43,1204 @@ public class interfazTabla extends javax.swing.JFrame {
 
         jScrollPane1 = new javax.swing.JScrollPane();
         AreaBotones = new javax.swing.JPanel();
-        btn1 = new javax.swing.JButton();
-        btn2 = new javax.swing.JButton();
-        btn3 = new javax.swing.JButton();
-        btn4 = new javax.swing.JButton();
-        btn312 = new javax.swing.JButton();
-        btn4534 = new javax.swing.JButton();
-        btn5534 = new javax.swing.JButton();
-        btn612 = new javax.swing.JButton();
-        btn7323 = new javax.swing.JButton();
-        btn9 = new javax.swing.JButton();
-        btn10 = new javax.swing.JButton();
-        btn11 = new javax.swing.JButton();
-        btn12 = new javax.swing.JButton();
-        btn13 = new javax.swing.JButton();
-        btn14 = new javax.swing.JButton();
-        btn15 = new javax.swing.JButton();
-        btn16 = new javax.swing.JButton();
-        btn17 = new javax.swing.JButton();
-        btn18 = new javax.swing.JButton();
-        btn19 = new javax.swing.JButton();
-        btn20 = new javax.swing.JButton();
-        btn21 = new javax.swing.JButton();
-        btn22 = new javax.swing.JButton();
-        btn23 = new javax.swing.JButton();
-        btn24 = new javax.swing.JButton();
-        btn25 = new javax.swing.JButton();
-        btn26 = new javax.swing.JButton();
-        btn27 = new javax.swing.JButton();
-        btn28 = new javax.swing.JButton();
-        btn29 = new javax.swing.JButton();
-        btn30 = new javax.swing.JButton();
-        btn31 = new javax.swing.JButton();
-        btn32 = new javax.swing.JButton();
-        btn33 = new javax.swing.JButton();
-        btn34 = new javax.swing.JButton();
-        btn35 = new javax.swing.JButton();
-        btn36 = new javax.swing.JButton();
-        btn37 = new javax.swing.JButton();
-        btn38 = new javax.swing.JButton();
-        btn39 = new javax.swing.JButton();
-        btn40 = new javax.swing.JButton();
-        btn41 = new javax.swing.JButton();
-        btn42 = new javax.swing.JButton();
-        btn43 = new javax.swing.JButton();
-        btn44 = new javax.swing.JButton();
-        btn45 = new javax.swing.JButton();
-        btn46 = new javax.swing.JButton();
-        btn47 = new javax.swing.JButton();
-        btn48 = new javax.swing.JButton();
-        btn49 = new javax.swing.JButton();
-        btn50 = new javax.swing.JButton();
-        btn51 = new javax.swing.JButton();
-        btn52 = new javax.swing.JButton();
-        btn53 = new javax.swing.JButton();
-        btn54 = new javax.swing.JButton();
-        btn55 = new javax.swing.JButton();
-        btn56 = new javax.swing.JButton();
-        btn111 = new javax.swing.JButton();
-        btn58 = new javax.swing.JButton();
-        btn59 = new javax.swing.JButton();
-        btn60 = new javax.swing.JButton();
-        btn61 = new javax.swing.JButton();
-        btn112 = new javax.swing.JButton();
-        btn63 = new javax.swing.JButton();
-        btn64 = new javax.swing.JButton();
-        btn65 = new javax.swing.JButton();
-        btn66 = new javax.swing.JButton();
-        btn113 = new javax.swing.JButton();
-        btn68 = new javax.swing.JButton();
-        btn69 = new javax.swing.JButton();
-        btn70 = new javax.swing.JButton();
-        btn71 = new javax.swing.JButton();
-        btn114 = new javax.swing.JButton();
-        btn73 = new javax.swing.JButton();
-        btn74 = new javax.swing.JButton();
-        btn75 = new javax.swing.JButton();
-        btn76 = new javax.swing.JButton();
-        btn115 = new javax.swing.JButton();
-        btn78 = new javax.swing.JButton();
-        btn79 = new javax.swing.JButton();
-        btn80 = new javax.swing.JButton();
-        btn81 = new javax.swing.JButton();
-        btn116 = new javax.swing.JButton();
-        btn83 = new javax.swing.JButton();
-        btn84 = new javax.swing.JButton();
-        btn85 = new javax.swing.JButton();
-        btn117 = new javax.swing.JButton();
-        btn87 = new javax.swing.JButton();
-        btn88 = new javax.swing.JButton();
-        btn118 = new javax.swing.JButton();
-        btn90 = new javax.swing.JButton();
-        btn91 = new javax.swing.JButton();
-        btn92 = new javax.swing.JButton();
-        btn93 = new javax.swing.JButton();
-        btn94 = new javax.swing.JButton();
-        btn09 = new javax.swing.JButton();
-        btn08 = new javax.swing.JButton();
-        btn07 = new javax.swing.JButton();
-        btn06 = new javax.swing.JButton();
-        btn05 = new javax.swing.JButton();
-        btn119 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
-        etImagenCentral = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
-        jLabel18 = new javax.swing.JLabel();
-        jLabel19 = new javax.swing.JLabel();
-        jLabel20 = new javax.swing.JLabel();
-        jLabel21 = new javax.swing.JLabel();
-        jLabel22 = new javax.swing.JLabel();
-        jLabel23 = new javax.swing.JLabel();
-        jLabel24 = new javax.swing.JLabel();
-        jLabel25 = new javax.swing.JLabel();
-        btn120 = new javax.swing.JButton();
-        btn121 = new javax.swing.JButton();
-        btn122 = new javax.swing.JButton();
-        btn123 = new javax.swing.JButton();
-        btn124 = new javax.swing.JButton();
-        btn125 = new javax.swing.JButton();
-        btn126 = new javax.swing.JButton();
-        btn127 = new javax.swing.JButton();
-        btn128 = new javax.swing.JButton();
-        btn129 = new javax.swing.JButton();
-        btn130 = new javax.swing.JButton();
-        btn131 = new javax.swing.JButton();
-        btn132 = new javax.swing.JButton();
-        btn133 = new javax.swing.JButton();
-        btn134 = new javax.swing.JButton();
-        btn135 = new javax.swing.JButton();
-        btn136 = new javax.swing.JButton();
-        btn137 = new javax.swing.JButton();
-        btn138 = new javax.swing.JButton();
-        btn139 = new javax.swing.JButton();
-        btn140 = new javax.swing.JButton();
-        btn141 = new javax.swing.JButton();
-        btn142 = new javax.swing.JButton();
-        btn143 = new javax.swing.JButton();
-        btn144 = new javax.swing.JButton();
-        btn145 = new javax.swing.JButton();
-        btn146 = new javax.swing.JButton();
-        Fondo = new javax.swing.JLabel();
+        img1 = new javax.swing.JLabel();
+        img2 = new javax.swing.JLabel();
+        img3 = new javax.swing.JLabel();
+        img4 = new javax.swing.JLabel();
+        img5 = new javax.swing.JLabel();
+        img6 = new javax.swing.JLabel();
+        img7 = new javax.swing.JLabel();
+        img8 = new javax.swing.JLabel();
+        img9 = new javax.swing.JLabel();
+        img10 = new javax.swing.JLabel();
+        img11 = new javax.swing.JLabel();
+        img12 = new javax.swing.JLabel();
+        img13 = new javax.swing.JLabel();
+        img14 = new javax.swing.JLabel();
+        img15 = new javax.swing.JLabel();
+        img16 = new javax.swing.JLabel();
+        img17 = new javax.swing.JLabel();
+        img18 = new javax.swing.JLabel();
+        img19 = new javax.swing.JLabel();
+        img20 = new javax.swing.JLabel();
+        img21 = new javax.swing.JLabel();
+        img22 = new javax.swing.JLabel();
+        img23 = new javax.swing.JLabel();
+        img24 = new javax.swing.JLabel();
+        img25 = new javax.swing.JLabel();
+        img26 = new javax.swing.JLabel();
+        img27 = new javax.swing.JLabel();
+        img28 = new javax.swing.JLabel();
+        img29 = new javax.swing.JLabel();
+        img30 = new javax.swing.JLabel();
+        img31 = new javax.swing.JLabel();
+        img32 = new javax.swing.JLabel();
+        img33 = new javax.swing.JLabel();
+        img34 = new javax.swing.JLabel();
+        img35 = new javax.swing.JLabel();
+        img36 = new javax.swing.JLabel();
+        img37 = new javax.swing.JLabel();
+        img38 = new javax.swing.JLabel();
+        img39 = new javax.swing.JLabel();
+        img40 = new javax.swing.JLabel();
+        img41 = new javax.swing.JLabel();
+        img42 = new javax.swing.JLabel();
+        img43 = new javax.swing.JLabel();
+        img44 = new javax.swing.JLabel();
+        img45 = new javax.swing.JLabel();
+        img46 = new javax.swing.JLabel();
+        img47 = new javax.swing.JLabel();
+        img48 = new javax.swing.JLabel();
+        img49 = new javax.swing.JLabel();
+        img50 = new javax.swing.JLabel();
+        img51 = new javax.swing.JLabel();
+        img52 = new javax.swing.JLabel();
+        img53 = new javax.swing.JLabel();
+        img54 = new javax.swing.JLabel();
+        img55 = new javax.swing.JLabel();
+        img56 = new javax.swing.JLabel();
+        img57 = new javax.swing.JLabel();
+        img58 = new javax.swing.JLabel();
+        img59 = new javax.swing.JLabel();
+        img60 = new javax.swing.JLabel();
+        img61 = new javax.swing.JLabel();
+        img62 = new javax.swing.JLabel();
+        img63 = new javax.swing.JLabel();
+        img64 = new javax.swing.JLabel();
+        img65 = new javax.swing.JLabel();
+        img66 = new javax.swing.JLabel();
+        img67 = new javax.swing.JLabel();
+        img68 = new javax.swing.JLabel();
+        img69 = new javax.swing.JLabel();
+        img70 = new javax.swing.JLabel();
+        img71 = new javax.swing.JLabel();
+        img72 = new javax.swing.JLabel();
+        img73 = new javax.swing.JLabel();
+        img74 = new javax.swing.JLabel();
+        img75 = new javax.swing.JLabel();
+        img76 = new javax.swing.JLabel();
+        img77 = new javax.swing.JLabel();
+        img78 = new javax.swing.JLabel();
+        img79 = new javax.swing.JLabel();
+        img80 = new javax.swing.JLabel();
+        img81 = new javax.swing.JLabel();
+        img82 = new javax.swing.JLabel();
+        img83 = new javax.swing.JLabel();
+        img84 = new javax.swing.JLabel();
+        img85 = new javax.swing.JLabel();
+        img86 = new javax.swing.JLabel();
+        img87 = new javax.swing.JLabel();
+        img88 = new javax.swing.JLabel();
+        img89 = new javax.swing.JLabel();
+        img90 = new javax.swing.JLabel();
+        img91 = new javax.swing.JLabel();
+        img92 = new javax.swing.JLabel();
+        img93 = new javax.swing.JLabel();
+        img94 = new javax.swing.JLabel();
+        img95 = new javax.swing.JLabel();
+        img96 = new javax.swing.JLabel();
+        img97 = new javax.swing.JLabel();
+        img98 = new javax.swing.JLabel();
+        img99 = new javax.swing.JLabel();
+        img100 = new javax.swing.JLabel();
+        img101 = new javax.swing.JLabel();
+        img102 = new javax.swing.JLabel();
+        img103 = new javax.swing.JLabel();
+        img104 = new javax.swing.JLabel();
+        img105 = new javax.swing.JLabel();
+        img106 = new javax.swing.JLabel();
+        img107 = new javax.swing.JLabel();
+        img108 = new javax.swing.JLabel();
+        img109 = new javax.swing.JLabel();
+        img110 = new javax.swing.JLabel();
+        img111 = new javax.swing.JLabel();
+        img112 = new javax.swing.JLabel();
+        img113 = new javax.swing.JLabel();
+        img114 = new javax.swing.JLabel();
+        img115 = new javax.swing.JLabel();
+        img116 = new javax.swing.JLabel();
+        img117 = new javax.swing.JLabel();
+        img118 = new javax.swing.JLabel();
+        fondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMinimumSize(new java.awt.Dimension(950, 650));
+        setMinimumSize(new java.awt.Dimension(950, 620));
         setResizable(false);
         getContentPane().setLayout(null);
 
-        AreaBotones.setBackground(new java.awt.Color(204, 255, 255));
+        AreaBotones.setBackground(new java.awt.Color(255, 255, 255));
         AreaBotones.setLayout(null);
 
-        btn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Elementos/H.gif"))); // NOI18N
-        btn1.setBorder(new javax.swing.border.MatteBorder(null));
-        btn1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn1ActionPerformed(evt);
+        img1.setBackground(new java.awt.Color(0, 255, 204));
+        img1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                CargarHidrogeno(evt);
             }
         });
-        AreaBotones.add(btn1);
-        btn1.setBounds(40, 100, 42, 41);
-        AreaBotones.add(btn2);
-        btn2.setBounds(890, 100, 42, 41);
-        AreaBotones.add(btn3);
-        btn3.setBounds(40, 150, 42, 41);
-        AreaBotones.add(btn4);
-        btn4.setBounds(90, 150, 42, 41);
-        AreaBotones.add(btn312);
-        btn312.setBounds(40, 200, 42, 41);
-        AreaBotones.add(btn4534);
-        btn4534.setBounds(40, 250, 42, 41);
-        AreaBotones.add(btn5534);
-        btn5534.setBounds(40, 300, 42, 41);
-        AreaBotones.add(btn612);
-        btn612.setBounds(40, 350, 42, 41);
-        AreaBotones.add(btn7323);
-        btn7323.setBounds(40, 400, 42, 41);
-        AreaBotones.add(btn9);
-        btn9.setBounds(90, 200, 42, 41);
-        AreaBotones.add(btn10);
-        btn10.setBounds(90, 250, 42, 41);
-        AreaBotones.add(btn11);
-        btn11.setBounds(90, 300, 42, 41);
-        AreaBotones.add(btn12);
-        btn12.setBounds(90, 350, 42, 41);
-        AreaBotones.add(btn13);
-        btn13.setBounds(90, 400, 42, 41);
-        AreaBotones.add(btn14);
-        btn14.setBounds(140, 200, 42, 41);
-        AreaBotones.add(btn15);
-        btn15.setBounds(140, 250, 42, 41);
-        AreaBotones.add(btn16);
-        btn16.setBounds(140, 300, 42, 41);
-        AreaBotones.add(btn17);
-        btn17.setBounds(140, 350, 42, 41);
-        AreaBotones.add(btn18);
-        btn18.setBounds(140, 400, 42, 41);
-        AreaBotones.add(btn19);
-        btn19.setBounds(190, 200, 42, 41);
-        AreaBotones.add(btn20);
-        btn20.setBounds(190, 250, 42, 41);
-        AreaBotones.add(btn21);
-        btn21.setBounds(190, 300, 42, 41);
-        AreaBotones.add(btn22);
-        btn22.setBounds(190, 350, 42, 41);
-        AreaBotones.add(btn23);
-        btn23.setBounds(190, 400, 42, 41);
-        AreaBotones.add(btn24);
-        btn24.setBounds(240, 200, 42, 41);
-        AreaBotones.add(btn25);
-        btn25.setBounds(240, 250, 42, 41);
-        AreaBotones.add(btn26);
-        btn26.setBounds(240, 300, 42, 41);
-        AreaBotones.add(btn27);
-        btn27.setBounds(240, 350, 42, 41);
-        AreaBotones.add(btn28);
-        btn28.setBounds(240, 400, 42, 41);
-        AreaBotones.add(btn29);
-        btn29.setBounds(290, 200, 42, 41);
-        AreaBotones.add(btn30);
-        btn30.setBounds(290, 250, 42, 41);
-        AreaBotones.add(btn31);
-        btn31.setBounds(290, 300, 42, 41);
-        AreaBotones.add(btn32);
-        btn32.setBounds(290, 350, 42, 41);
-        AreaBotones.add(btn33);
-        btn33.setBounds(290, 400, 42, 41);
-        AreaBotones.add(btn34);
-        btn34.setBounds(340, 350, 42, 41);
-        AreaBotones.add(btn35);
-        btn35.setBounds(340, 400, 42, 41);
-        AreaBotones.add(btn36);
-        btn36.setBounds(340, 250, 42, 41);
-        AreaBotones.add(btn37);
-        btn37.setBounds(340, 300, 42, 41);
-        AreaBotones.add(btn38);
-        btn38.setBounds(340, 200, 42, 41);
-        AreaBotones.add(btn39);
-        btn39.setBounds(390, 350, 42, 41);
-        AreaBotones.add(btn40);
-        btn40.setBounds(390, 400, 42, 41);
-        AreaBotones.add(btn41);
-        btn41.setBounds(390, 250, 42, 41);
-        AreaBotones.add(btn42);
-        btn42.setBounds(390, 300, 42, 41);
-        AreaBotones.add(btn43);
-        btn43.setBounds(390, 200, 42, 41);
-        AreaBotones.add(btn44);
-        btn44.setBounds(440, 400, 42, 41);
-        AreaBotones.add(btn45);
-        btn45.setBounds(440, 250, 42, 41);
-        AreaBotones.add(btn46);
-        btn46.setBounds(440, 350, 42, 41);
-        AreaBotones.add(btn47);
-        btn47.setBounds(440, 300, 42, 41);
-        AreaBotones.add(btn48);
-        btn48.setBounds(440, 200, 42, 41);
-        AreaBotones.add(btn49);
-        btn49.setBounds(490, 250, 42, 41);
-        AreaBotones.add(btn50);
-        btn50.setBounds(490, 300, 42, 41);
-        AreaBotones.add(btn51);
-        btn51.setBounds(490, 200, 42, 41);
-        AreaBotones.add(btn52);
-        btn52.setBounds(490, 400, 42, 41);
-        AreaBotones.add(btn53);
-        btn53.setBounds(490, 350, 42, 41);
-        AreaBotones.add(btn54);
-        btn54.setBounds(540, 250, 42, 41);
-        AreaBotones.add(btn55);
-        btn55.setBounds(540, 300, 42, 41);
-        AreaBotones.add(btn56);
-        btn56.setBounds(540, 200, 42, 41);
-        AreaBotones.add(btn111);
-        btn111.setBounds(540, 400, 42, 41);
-        AreaBotones.add(btn58);
-        btn58.setBounds(540, 350, 42, 41);
-        AreaBotones.add(btn59);
-        btn59.setBounds(590, 250, 42, 41);
-        AreaBotones.add(btn60);
-        btn60.setBounds(590, 300, 42, 41);
-        AreaBotones.add(btn61);
-        btn61.setBounds(590, 200, 42, 41);
-        AreaBotones.add(btn112);
-        btn112.setBounds(590, 400, 42, 41);
-        AreaBotones.add(btn63);
-        btn63.setBounds(590, 350, 42, 41);
-        AreaBotones.add(btn64);
-        btn64.setBounds(640, 250, 42, 41);
-        AreaBotones.add(btn65);
-        btn65.setBounds(640, 300, 42, 41);
-        AreaBotones.add(btn66);
-        btn66.setBounds(640, 200, 42, 41);
-        AreaBotones.add(btn113);
-        btn113.setBounds(640, 400, 42, 41);
-        AreaBotones.add(btn68);
-        btn68.setBounds(640, 350, 42, 41);
-        AreaBotones.add(btn69);
-        btn69.setBounds(690, 250, 42, 41);
-        AreaBotones.add(btn70);
-        btn70.setBounds(690, 300, 42, 41);
-        AreaBotones.add(btn71);
-        btn71.setBounds(690, 200, 42, 41);
-        AreaBotones.add(btn114);
-        btn114.setBounds(690, 400, 42, 41);
-        AreaBotones.add(btn73);
-        btn73.setBounds(690, 350, 42, 41);
-        AreaBotones.add(btn74);
-        btn74.setBounds(740, 250, 42, 41);
-        AreaBotones.add(btn75);
-        btn75.setBounds(740, 300, 42, 41);
-        AreaBotones.add(btn76);
-        btn76.setBounds(740, 200, 42, 41);
-        AreaBotones.add(btn115);
-        btn115.setBounds(740, 400, 42, 41);
-        AreaBotones.add(btn78);
-        btn78.setBounds(740, 350, 42, 41);
-        AreaBotones.add(btn79);
-        btn79.setBounds(790, 250, 42, 41);
-        AreaBotones.add(btn80);
-        btn80.setBounds(790, 300, 42, 41);
-        AreaBotones.add(btn81);
-        btn81.setBounds(790, 200, 42, 41);
-        AreaBotones.add(btn116);
-        btn116.setBounds(790, 400, 42, 41);
+        AreaBotones.add(img1);
+        img1.setBounds(20, 80, 50, 50);
 
-        btn83.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn83ActionPerformed(evt);
+        img2.setBackground(new java.awt.Color(0, 255, 204));
+        img2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img2CargarHidrogeno(evt);
             }
         });
-        AreaBotones.add(btn83);
-        btn83.setBounds(790, 350, 42, 41);
-        AreaBotones.add(btn84);
-        btn84.setBounds(840, 200, 42, 41);
-        AreaBotones.add(btn85);
-        btn85.setBounds(840, 250, 42, 41);
-        AreaBotones.add(btn117);
-        btn117.setBounds(840, 400, 42, 41);
-        AreaBotones.add(btn87);
-        btn87.setBounds(840, 300, 42, 41);
-        AreaBotones.add(btn88);
-        btn88.setBounds(840, 350, 42, 41);
-        AreaBotones.add(btn118);
-        btn118.setBounds(160, 470, 42, 41);
+        AreaBotones.add(img2);
+        img2.setBounds(880, 80, 50, 50);
 
-        btn90.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn90ActionPerformed(evt);
+        img3.setBackground(new java.awt.Color(0, 255, 204));
+        img3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img3CargarHidrogeno(evt);
             }
         });
-        AreaBotones.add(btn90);
-        btn90.setBounds(890, 200, 42, 41);
-        AreaBotones.add(btn91);
-        btn91.setBounds(890, 300, 42, 41);
-        AreaBotones.add(btn92);
-        btn92.setBounds(890, 250, 42, 41);
-        AreaBotones.add(btn93);
-        btn93.setBounds(890, 350, 42, 41);
-        AreaBotones.add(btn94);
-        btn94.setBounds(890, 150, 42, 41);
-        AreaBotones.add(btn09);
-        btn09.setBounds(840, 150, 42, 41);
-        AreaBotones.add(btn08);
-        btn08.setBounds(790, 150, 42, 41);
-        AreaBotones.add(btn07);
-        btn07.setBounds(740, 150, 42, 41);
-        AreaBotones.add(btn06);
-        btn06.setBounds(690, 150, 42, 41);
-        AreaBotones.add(btn05);
-        btn05.setBounds(640, 150, 42, 41);
-        AreaBotones.add(btn119);
-        btn119.setBounds(890, 400, 42, 41);
+        AreaBotones.add(img3);
+        img3.setBounds(20, 130, 50, 50);
 
-        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("3");
-        AreaBotones.add(jLabel1);
-        jLabel1.setBounds(20, 210, 10, 22);
-        AreaBotones.add(etImagenCentral);
-        etImagenCentral.setBounds(290, 10, 260, 130);
-
-        jLabel2.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setText("2");
-        AreaBotones.add(jLabel2);
-        jLabel2.setBounds(100, 120, 10, 22);
-
-        jLabel3.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setText("4");
-        AreaBotones.add(jLabel3);
-        jLabel3.setBounds(20, 260, 10, 22);
-
-        jLabel4.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel4.setText("5");
-        AreaBotones.add(jLabel4);
-        jLabel4.setBounds(20, 310, 10, 22);
-
-        jLabel5.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel5.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel5.setText("6");
-        AreaBotones.add(jLabel5);
-        jLabel5.setBounds(20, 360, 10, 22);
-
-        jLabel6.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel6.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel6.setText("7");
-        AreaBotones.add(jLabel6);
-        jLabel6.setBounds(20, 410, 10, 22);
-
-        jLabel7.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel7.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel7.setText("2");
-        AreaBotones.add(jLabel7);
-        jLabel7.setBounds(20, 160, 10, 22);
-
-        jLabel8.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel8.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel8.setText("1");
-        AreaBotones.add(jLabel8);
-        jLabel8.setBounds(20, 110, 10, 22);
-
-        jLabel9.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel9.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel9.setText("3");
-        AreaBotones.add(jLabel9);
-        jLabel9.setBounds(150, 170, 10, 22);
-
-        jLabel10.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel10.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel10.setText("4");
-        AreaBotones.add(jLabel10);
-        jLabel10.setBounds(200, 170, 10, 22);
-
-        jLabel11.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel11.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel11.setText("5");
-        AreaBotones.add(jLabel11);
-        jLabel11.setBounds(250, 170, 10, 22);
-
-        jLabel12.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel12.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel12.setText("6");
-        AreaBotones.add(jLabel12);
-        jLabel12.setBounds(300, 170, 10, 22);
-
-        jLabel13.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel13.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel13.setText("7");
-        AreaBotones.add(jLabel13);
-        jLabel13.setBounds(350, 170, 10, 22);
-
-        jLabel14.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel14.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel14.setText("9");
-        AreaBotones.add(jLabel14);
-        jLabel14.setBounds(450, 170, 10, 22);
-
-        jLabel15.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel15.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel15.setText("11");
-        AreaBotones.add(jLabel15);
-        jLabel15.setBounds(550, 170, 20, 22);
-
-        jLabel16.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel16.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel16.setText("8");
-        AreaBotones.add(jLabel16);
-        jLabel16.setBounds(400, 170, 10, 22);
-
-        jLabel17.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel17.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel17.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel17.setText("12");
-        AreaBotones.add(jLabel17);
-        jLabel17.setBounds(600, 170, 20, 22);
-
-        jLabel18.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel18.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel18.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel18.setText("13");
-        AreaBotones.add(jLabel18);
-        jLabel18.setBounds(650, 120, 20, 22);
-
-        jLabel19.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel19.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel19.setText("14");
-        AreaBotones.add(jLabel19);
-        jLabel19.setBounds(700, 120, 20, 22);
-
-        jLabel20.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel20.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel20.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel20.setText("15");
-        AreaBotones.add(jLabel20);
-        jLabel20.setBounds(750, 120, 20, 22);
-
-        jLabel21.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel21.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel21.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel21.setText("16");
-        AreaBotones.add(jLabel21);
-        jLabel21.setBounds(800, 120, 20, 22);
-
-        jLabel22.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel22.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel22.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel22.setText("1");
-        AreaBotones.add(jLabel22);
-        jLabel22.setBounds(50, 70, 20, 22);
-
-        jLabel23.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel23.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel23.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel23.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel23.setText("10");
-        AreaBotones.add(jLabel23);
-        jLabel23.setBounds(500, 170, 20, 22);
-
-        jLabel24.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel24.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel24.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel24.setText("17");
-        AreaBotones.add(jLabel24);
-        jLabel24.setBounds(850, 120, 20, 22);
-
-        jLabel25.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel25.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel25.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel25.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel25.setText("18");
-        AreaBotones.add(jLabel25);
-        jLabel25.setBounds(900, 70, 20, 22);
-
-        btn120.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn120ActionPerformed(evt);
+        img4.setBackground(new java.awt.Color(0, 255, 204));
+        img4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img4CargarHidrogeno(evt);
             }
         });
-        AreaBotones.add(btn120);
-        btn120.setBounds(210, 470, 42, 41);
-        AreaBotones.add(btn121);
-        btn121.setBounds(260, 470, 42, 41);
-        AreaBotones.add(btn122);
-        btn122.setBounds(310, 470, 42, 41);
-        AreaBotones.add(btn123);
-        btn123.setBounds(360, 470, 42, 41);
-        AreaBotones.add(btn124);
-        btn124.setBounds(410, 470, 42, 41);
-        AreaBotones.add(btn125);
-        btn125.setBounds(460, 470, 42, 41);
-        AreaBotones.add(btn126);
-        btn126.setBounds(510, 470, 42, 41);
-        AreaBotones.add(btn127);
-        btn127.setBounds(560, 470, 42, 41);
-        AreaBotones.add(btn128);
-        btn128.setBounds(610, 470, 42, 41);
-        AreaBotones.add(btn129);
-        btn129.setBounds(660, 470, 42, 41);
-        AreaBotones.add(btn130);
-        btn130.setBounds(710, 470, 42, 41);
-        AreaBotones.add(btn131);
-        btn131.setBounds(760, 470, 42, 41);
-        AreaBotones.add(btn132);
-        btn132.setBounds(810, 470, 42, 41);
-        AreaBotones.add(btn133);
-        btn133.setBounds(260, 520, 42, 41);
-        AreaBotones.add(btn134);
-        btn134.setBounds(410, 520, 42, 41);
-        AreaBotones.add(btn135);
-        btn135.setBounds(510, 520, 42, 41);
-        AreaBotones.add(btn136);
-        btn136.setBounds(660, 520, 42, 41);
-        AreaBotones.add(btn137);
-        btn137.setBounds(460, 520, 42, 41);
-        AreaBotones.add(btn138);
-        btn138.setBounds(710, 520, 42, 41);
-        AreaBotones.add(btn139);
-        btn139.setBounds(560, 520, 42, 41);
+        AreaBotones.add(img4);
+        img4.setBounds(70, 130, 50, 50);
 
-        btn140.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn140ActionPerformed(evt);
+        img5.setBackground(new java.awt.Color(0, 255, 204));
+        img5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img5CargarHidrogeno(evt);
             }
         });
-        AreaBotones.add(btn140);
-        btn140.setBounds(210, 520, 42, 41);
-        AreaBotones.add(btn141);
-        btn141.setBounds(810, 520, 42, 41);
-        AreaBotones.add(btn142);
-        btn142.setBounds(310, 520, 42, 41);
-        AreaBotones.add(btn143);
-        btn143.setBounds(360, 520, 42, 41);
-        AreaBotones.add(btn144);
-        btn144.setBounds(610, 520, 42, 41);
-        AreaBotones.add(btn145);
-        btn145.setBounds(760, 520, 42, 41);
-        AreaBotones.add(btn146);
-        btn146.setBounds(160, 520, 42, 41);
+        AreaBotones.add(img5);
+        img5.setBounds(630, 130, 50, 50);
 
-        Fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/367969_1920_1080.jpg"))); // NOI18N
-        Fondo.setMaximumSize(new java.awt.Dimension(1920, 1250));
-        Fondo.setMinimumSize(new java.awt.Dimension(1920, 1250));
-        Fondo.setOpaque(true);
-        AreaBotones.add(Fondo);
-        Fondo.setBounds(0, 0, 960, 650);
+        img6.setBackground(new java.awt.Color(0, 255, 204));
+        img6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img6CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img6);
+        img6.setBounds(680, 130, 50, 50);
+
+        img7.setBackground(new java.awt.Color(0, 255, 204));
+        img7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img7CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img7);
+        img7.setBounds(730, 130, 50, 50);
+
+        img8.setBackground(new java.awt.Color(0, 255, 204));
+        img8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img8CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img8);
+        img8.setBounds(780, 130, 50, 50);
+
+        img9.setBackground(new java.awt.Color(0, 255, 204));
+        img9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img9CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img9);
+        img9.setBounds(830, 130, 50, 50);
+
+        img10.setBackground(new java.awt.Color(0, 255, 204));
+        img10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img10CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img10);
+        img10.setBounds(880, 130, 50, 50);
+
+        img11.setBackground(new java.awt.Color(0, 255, 204));
+        img11.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img11CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img11);
+        img11.setBounds(20, 180, 50, 50);
+
+        img12.setBackground(new java.awt.Color(0, 255, 204));
+        img12.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img12CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img12);
+        img12.setBounds(70, 180, 50, 50);
+
+        img13.setBackground(new java.awt.Color(0, 255, 204));
+        img13.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img13CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img13);
+        img13.setBounds(630, 180, 50, 50);
+
+        img14.setBackground(new java.awt.Color(0, 255, 204));
+        img14.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img14CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img14);
+        img14.setBounds(680, 180, 50, 50);
+
+        img15.setBackground(new java.awt.Color(0, 255, 204));
+        img15.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img15CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img15);
+        img15.setBounds(730, 180, 50, 50);
+
+        img16.setBackground(new java.awt.Color(0, 255, 204));
+        img16.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img16CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img16);
+        img16.setBounds(780, 180, 50, 50);
+
+        img17.setBackground(new java.awt.Color(0, 255, 204));
+        img17.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img17CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img17);
+        img17.setBounds(830, 180, 50, 50);
+
+        img18.setBackground(new java.awt.Color(0, 255, 204));
+        img18.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img18CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img18);
+        img18.setBounds(880, 180, 50, 50);
+
+        img19.setBackground(new java.awt.Color(0, 255, 204));
+        img19.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img19CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img19);
+        img19.setBounds(20, 230, 50, 50);
+
+        img20.setBackground(new java.awt.Color(0, 255, 204));
+        img20.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img20CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img20);
+        img20.setBounds(70, 230, 50, 50);
+
+        img21.setBackground(new java.awt.Color(0, 255, 204));
+        img21.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img21CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img21);
+        img21.setBounds(120, 230, 50, 50);
+
+        img22.setBackground(new java.awt.Color(0, 255, 204));
+        img22.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img22CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img22);
+        img22.setBounds(170, 230, 50, 50);
+
+        img23.setBackground(new java.awt.Color(0, 255, 204));
+        img23.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img23CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img23);
+        img23.setBounds(230, 230, 50, 50);
+
+        img24.setBackground(new java.awt.Color(0, 255, 204));
+        img24.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img24CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img24);
+        img24.setBounds(280, 230, 50, 50);
+
+        img25.setBackground(new java.awt.Color(0, 255, 204));
+        img25.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img25CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img25);
+        img25.setBounds(330, 230, 50, 50);
+
+        img26.setBackground(new java.awt.Color(0, 255, 204));
+        img26.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img26CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img26);
+        img26.setBounds(380, 230, 50, 50);
+
+        img27.setBackground(new java.awt.Color(0, 255, 204));
+        img27.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img27CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img27);
+        img27.setBounds(430, 230, 50, 50);
+
+        img28.setBackground(new java.awt.Color(0, 255, 204));
+        img28.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img28CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img28);
+        img28.setBounds(480, 230, 50, 50);
+
+        img29.setBackground(new java.awt.Color(0, 255, 204));
+        img29.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img29CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img29);
+        img29.setBounds(530, 230, 50, 50);
+
+        img30.setBackground(new java.awt.Color(0, 255, 204));
+        img30.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img30CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img30);
+        img30.setBounds(580, 230, 50, 50);
+
+        img31.setBackground(new java.awt.Color(0, 255, 204));
+        img31.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img31CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img31);
+        img31.setBounds(630, 230, 50, 50);
+
+        img32.setBackground(new java.awt.Color(0, 255, 204));
+        img32.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img32CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img32);
+        img32.setBounds(680, 230, 50, 50);
+
+        img33.setBackground(new java.awt.Color(0, 255, 204));
+        img33.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img33CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img33);
+        img33.setBounds(730, 230, 50, 50);
+
+        img34.setBackground(new java.awt.Color(0, 255, 204));
+        img34.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img34CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img34);
+        img34.setBounds(780, 230, 50, 50);
+
+        img35.setBackground(new java.awt.Color(0, 255, 204));
+        img35.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img35CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img35);
+        img35.setBounds(830, 230, 50, 50);
+
+        img36.setBackground(new java.awt.Color(0, 255, 204));
+        img36.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img36CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img36);
+        img36.setBounds(880, 230, 50, 50);
+
+        img37.setBackground(new java.awt.Color(0, 255, 204));
+        img37.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img37CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img37);
+        img37.setBounds(20, 280, 50, 50);
+
+        img38.setBackground(new java.awt.Color(0, 255, 204));
+        img38.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img38CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img38);
+        img38.setBounds(70, 280, 50, 50);
+
+        img39.setBackground(new java.awt.Color(0, 255, 204));
+        img39.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img39CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img39);
+        img39.setBounds(120, 280, 50, 50);
+
+        img40.setBackground(new java.awt.Color(0, 255, 204));
+        img40.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img40CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img40);
+        img40.setBounds(170, 280, 50, 50);
+
+        img41.setBackground(new java.awt.Color(0, 255, 204));
+        img41.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img41CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img41);
+        img41.setBounds(230, 280, 50, 50);
+
+        img42.setBackground(new java.awt.Color(0, 255, 204));
+        img42.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img42CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img42);
+        img42.setBounds(280, 280, 50, 50);
+
+        img43.setBackground(new java.awt.Color(0, 255, 204));
+        img43.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img43CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img43);
+        img43.setBounds(330, 280, 50, 50);
+
+        img44.setBackground(new java.awt.Color(0, 255, 204));
+        img44.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img44CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img44);
+        img44.setBounds(380, 280, 50, 50);
+
+        img45.setBackground(new java.awt.Color(0, 255, 204));
+        img45.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img45CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img45);
+        img45.setBounds(430, 280, 50, 50);
+
+        img46.setBackground(new java.awt.Color(0, 255, 204));
+        img46.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img46CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img46);
+        img46.setBounds(480, 280, 50, 50);
+
+        img47.setBackground(new java.awt.Color(0, 255, 204));
+        img47.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img47CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img47);
+        img47.setBounds(530, 280, 50, 50);
+
+        img48.setBackground(new java.awt.Color(0, 255, 204));
+        img48.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img48CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img48);
+        img48.setBounds(580, 280, 50, 50);
+
+        img49.setBackground(new java.awt.Color(0, 255, 204));
+        img49.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img49CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img49);
+        img49.setBounds(630, 280, 50, 50);
+
+        img50.setBackground(new java.awt.Color(0, 255, 204));
+        img50.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img50CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img50);
+        img50.setBounds(680, 280, 50, 50);
+
+        img51.setBackground(new java.awt.Color(0, 255, 204));
+        img51.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img51CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img51);
+        img51.setBounds(780, 280, 50, 50);
+
+        img52.setBackground(new java.awt.Color(0, 255, 204));
+        img52.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img52CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img52);
+        img52.setBounds(730, 280, 50, 50);
+
+        img53.setBackground(new java.awt.Color(0, 255, 204));
+        img53.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img53CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img53);
+        img53.setBounds(830, 280, 50, 50);
+
+        img54.setBackground(new java.awt.Color(0, 255, 204));
+        img54.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img54CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img54);
+        img54.setBounds(880, 280, 50, 50);
+
+        img55.setBackground(new java.awt.Color(0, 255, 204));
+        img55.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img55CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img55);
+        img55.setBounds(20, 330, 50, 50);
+
+        img56.setBackground(new java.awt.Color(0, 255, 204));
+        img56.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img56CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img56);
+        img56.setBounds(70, 330, 50, 50);
+
+        img57.setBackground(new java.awt.Color(0, 255, 204));
+        img57.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img57CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img57);
+        img57.setBounds(180, 440, 50, 50);
+
+        img58.setBackground(new java.awt.Color(0, 255, 204));
+        img58.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img58CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img58);
+        img58.setBounds(230, 440, 50, 50);
+
+        img59.setBackground(new java.awt.Color(0, 255, 204));
+        img59.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img59CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img59);
+        img59.setBounds(280, 440, 50, 50);
+
+        img60.setBackground(new java.awt.Color(0, 255, 204));
+        img60.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img60CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img60);
+        img60.setBounds(330, 440, 50, 50);
+
+        img61.setBackground(new java.awt.Color(0, 255, 204));
+        img61.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img61CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img61);
+        img61.setBounds(380, 440, 50, 50);
+
+        img62.setBackground(new java.awt.Color(0, 255, 204));
+        img62.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img62CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img62);
+        img62.setBounds(430, 440, 50, 50);
+
+        img63.setBackground(new java.awt.Color(0, 255, 204));
+        img63.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img63CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img63);
+        img63.setBounds(480, 440, 50, 50);
+
+        img64.setBackground(new java.awt.Color(0, 255, 204));
+        img64.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img64CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img64);
+        img64.setBounds(530, 440, 50, 50);
+
+        img65.setBackground(new java.awt.Color(0, 255, 204));
+        img65.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img65CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img65);
+        img65.setBounds(580, 440, 50, 50);
+
+        img66.setBackground(new java.awt.Color(0, 255, 204));
+        img66.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img66CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img66);
+        img66.setBounds(630, 440, 50, 50);
+
+        img67.setBackground(new java.awt.Color(0, 255, 204));
+        img67.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img67CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img67);
+        img67.setBounds(680, 440, 50, 50);
+
+        img68.setBackground(new java.awt.Color(0, 255, 204));
+        img68.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img68CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img68);
+        img68.setBounds(730, 440, 50, 50);
+
+        img69.setBackground(new java.awt.Color(0, 255, 204));
+        img69.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img69CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img69);
+        img69.setBounds(780, 440, 50, 50);
+
+        img70.setBackground(new java.awt.Color(0, 255, 204));
+        img70.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img70CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img70);
+        img70.setBounds(830, 440, 50, 50);
+
+        img71.setBackground(new java.awt.Color(0, 255, 204));
+        img71.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img71CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img71);
+        img71.setBounds(880, 440, 50, 50);
+
+        img72.setBackground(new java.awt.Color(0, 255, 204));
+        img72.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img72CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img72);
+        img72.setBounds(170, 330, 50, 50);
+
+        img73.setBackground(new java.awt.Color(0, 255, 204));
+        img73.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img73CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img73);
+        img73.setBounds(230, 330, 50, 50);
+
+        img74.setBackground(new java.awt.Color(0, 255, 204));
+        img74.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img74CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img74);
+        img74.setBounds(280, 330, 50, 50);
+
+        img75.setBackground(new java.awt.Color(0, 255, 204));
+        img75.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img75CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img75);
+        img75.setBounds(330, 330, 50, 50);
+
+        img76.setBackground(new java.awt.Color(0, 255, 204));
+        img76.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img76CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img76);
+        img76.setBounds(380, 330, 50, 50);
+
+        img77.setBackground(new java.awt.Color(0, 255, 204));
+        img77.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img77CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img77);
+        img77.setBounds(430, 330, 50, 50);
+
+        img78.setBackground(new java.awt.Color(0, 255, 204));
+        img78.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img78CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img78);
+        img78.setBounds(480, 330, 50, 50);
+
+        img79.setBackground(new java.awt.Color(0, 255, 204));
+        img79.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img79CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img79);
+        img79.setBounds(530, 330, 50, 50);
+
+        img80.setBackground(new java.awt.Color(0, 255, 204));
+        img80.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img80CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img80);
+        img80.setBounds(580, 330, 50, 50);
+
+        img81.setBackground(new java.awt.Color(0, 255, 204));
+        img81.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img81CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img81);
+        img81.setBounds(630, 330, 50, 50);
+
+        img82.setBackground(new java.awt.Color(0, 255, 204));
+        img82.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img82CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img82);
+        img82.setBounds(680, 330, 50, 50);
+
+        img83.setBackground(new java.awt.Color(0, 255, 204));
+        img83.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img83CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img83);
+        img83.setBounds(730, 330, 50, 50);
+
+        img84.setBackground(new java.awt.Color(0, 255, 204));
+        img84.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img84CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img84);
+        img84.setBounds(780, 330, 50, 50);
+
+        img85.setBackground(new java.awt.Color(0, 255, 204));
+        img85.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img85CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img85);
+        img85.setBounds(830, 330, 50, 50);
+
+        img86.setBackground(new java.awt.Color(0, 255, 204));
+        img86.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img86CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img86);
+        img86.setBounds(880, 330, 50, 50);
+
+        img87.setBackground(new java.awt.Color(0, 255, 204));
+        img87.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img87CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img87);
+        img87.setBounds(20, 380, 50, 50);
+
+        img88.setBackground(new java.awt.Color(0, 255, 204));
+        img88.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img88CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img88);
+        img88.setBounds(70, 380, 50, 50);
+
+        img89.setBackground(new java.awt.Color(0, 255, 204));
+        img89.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img89CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img89);
+        img89.setBounds(180, 490, 50, 50);
+
+        img90.setBackground(new java.awt.Color(0, 255, 204));
+        img90.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img90CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img90);
+        img90.setBounds(230, 490, 50, 50);
+
+        img91.setBackground(new java.awt.Color(0, 255, 204));
+        img91.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img91CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img91);
+        img91.setBounds(280, 490, 50, 50);
+
+        img92.setBackground(new java.awt.Color(0, 255, 204));
+        img92.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img92CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img92);
+        img92.setBounds(330, 490, 50, 50);
+
+        img93.setBackground(new java.awt.Color(0, 255, 204));
+        img93.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img93CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img93);
+        img93.setBounds(380, 490, 50, 50);
+
+        img94.setBackground(new java.awt.Color(0, 255, 204));
+        img94.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img94CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img94);
+        img94.setBounds(430, 490, 50, 50);
+
+        img95.setBackground(new java.awt.Color(0, 255, 204));
+        img95.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img95CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img95);
+        img95.setBounds(480, 490, 50, 50);
+
+        img96.setBackground(new java.awt.Color(0, 255, 204));
+        img96.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img96CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img96);
+        img96.setBounds(530, 490, 50, 50);
+
+        img97.setBackground(new java.awt.Color(0, 255, 204));
+        img97.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img97CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img97);
+        img97.setBounds(580, 490, 50, 50);
+
+        img98.setBackground(new java.awt.Color(0, 255, 204));
+        img98.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img98CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img98);
+        img98.setBounds(630, 490, 50, 50);
+
+        img99.setBackground(new java.awt.Color(0, 255, 204));
+        img99.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img99CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img99);
+        img99.setBounds(680, 490, 50, 50);
+
+        img100.setBackground(new java.awt.Color(0, 255, 204));
+        img100.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img100CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img100);
+        img100.setBounds(730, 490, 50, 50);
+
+        img101.setBackground(new java.awt.Color(0, 255, 204));
+        img101.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img101CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img101);
+        img101.setBounds(780, 490, 50, 50);
+
+        img102.setBackground(new java.awt.Color(0, 255, 204));
+        img102.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img102CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img102);
+        img102.setBounds(830, 490, 50, 50);
+
+        img103.setBackground(new java.awt.Color(0, 255, 204));
+        img103.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img103CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img103);
+        img103.setBounds(880, 490, 50, 50);
+
+        img104.setBackground(new java.awt.Color(0, 255, 204));
+        img104.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img104CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img104);
+        img104.setBounds(170, 380, 50, 50);
+
+        img105.setBackground(new java.awt.Color(0, 255, 204));
+        img105.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img105CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img105);
+        img105.setBounds(230, 380, 50, 50);
+
+        img106.setBackground(new java.awt.Color(0, 255, 204));
+        img106.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img106CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img106);
+        img106.setBounds(280, 380, 50, 50);
+
+        img107.setBackground(new java.awt.Color(0, 255, 204));
+        img107.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img107CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img107);
+        img107.setBounds(330, 380, 50, 50);
+
+        img108.setBackground(new java.awt.Color(0, 255, 204));
+        img108.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img108CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img108);
+        img108.setBounds(380, 380, 50, 50);
+
+        img109.setBackground(new java.awt.Color(0, 255, 204));
+        img109.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img109CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img109);
+        img109.setBounds(430, 380, 50, 50);
+
+        img110.setBackground(new java.awt.Color(0, 255, 204));
+        img110.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img110CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img110);
+        img110.setBounds(480, 380, 50, 50);
+
+        img111.setBackground(new java.awt.Color(0, 255, 204));
+        img111.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img111CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img111);
+        img111.setBounds(530, 380, 50, 50);
+
+        img112.setBackground(new java.awt.Color(0, 255, 204));
+        img112.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img112CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img112);
+        img112.setBounds(580, 380, 50, 50);
+
+        img113.setBackground(new java.awt.Color(0, 255, 204));
+        img113.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img113CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img113);
+        img113.setBounds(630, 380, 50, 50);
+
+        img114.setBackground(new java.awt.Color(0, 255, 204));
+        img114.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img114CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img114);
+        img114.setBounds(680, 380, 50, 50);
+
+        img115.setBackground(new java.awt.Color(0, 255, 204));
+        img115.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img115CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img115);
+        img115.setBounds(730, 380, 50, 50);
+
+        img116.setBackground(new java.awt.Color(0, 255, 204));
+        img116.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img116CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img116);
+        img116.setBounds(780, 380, 50, 50);
+
+        img117.setBackground(new java.awt.Color(0, 255, 204));
+        img117.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img117CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img117);
+        img117.setBounds(830, 380, 50, 50);
+
+        img118.setBackground(new java.awt.Color(0, 255, 204));
+        img118.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                img118CargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(img118);
+        img118.setBounds(880, 380, 50, 50);
+
+        fondo.setBackground(new java.awt.Color(0, 255, 204));
+        fondo.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                fondoCargarHidrogeno(evt);
+            }
+        });
+        AreaBotones.add(fondo);
+        fondo.setBounds(0, 0, 960, 650);
 
         jScrollPane1.setViewportView(AreaBotones);
 
@@ -717,25 +1250,481 @@ public class interfazTabla extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btn90ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn90ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btn90ActionPerformed
+    private void CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_CargarHidrogeno
+        JOptionPane.showMessageDialog(AreaBotones, "Hidrogeno");        // TODO add your handling code here:
+    }//GEN-LAST:event_CargarHidrogeno
 
-    private void btn83ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn83ActionPerformed
+    private void img2CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img2CargarHidrogeno
         // TODO add your handling code here:
-    }//GEN-LAST:event_btn83ActionPerformed
+    }//GEN-LAST:event_img2CargarHidrogeno
 
-    private void btn120ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn120ActionPerformed
+    private void img3CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img3CargarHidrogeno
         // TODO add your handling code here:
-    }//GEN-LAST:event_btn120ActionPerformed
+    }//GEN-LAST:event_img3CargarHidrogeno
 
-    private void btn140ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn140ActionPerformed
+    private void img4CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img4CargarHidrogeno
         // TODO add your handling code here:
-    }//GEN-LAST:event_btn140ActionPerformed
+    }//GEN-LAST:event_img4CargarHidrogeno
 
-    private void btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn1ActionPerformed
+    private void img5CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img5CargarHidrogeno
         // TODO add your handling code here:
-    }//GEN-LAST:event_btn1ActionPerformed
+    }//GEN-LAST:event_img5CargarHidrogeno
+
+    private void img6CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img6CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img6CargarHidrogeno
+
+    private void img7CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img7CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img7CargarHidrogeno
+
+    private void img8CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img8CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img8CargarHidrogeno
+
+    private void img9CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img9CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img9CargarHidrogeno
+
+    private void img10CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img10CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img10CargarHidrogeno
+
+    private void img11CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img11CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img11CargarHidrogeno
+
+    private void img12CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img12CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img12CargarHidrogeno
+
+    private void img13CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img13CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img13CargarHidrogeno
+
+    private void img14CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img14CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img14CargarHidrogeno
+
+    private void img15CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img15CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img15CargarHidrogeno
+
+    private void img16CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img16CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img16CargarHidrogeno
+
+    private void img17CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img17CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img17CargarHidrogeno
+
+    private void img18CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img18CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img18CargarHidrogeno
+
+    private void img19CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img19CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img19CargarHidrogeno
+
+    private void img20CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img20CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img20CargarHidrogeno
+
+    private void img21CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img21CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img21CargarHidrogeno
+
+    private void img22CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img22CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img22CargarHidrogeno
+
+    private void img23CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img23CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img23CargarHidrogeno
+
+    private void img24CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img24CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img24CargarHidrogeno
+
+    private void img25CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img25CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img25CargarHidrogeno
+
+    private void img26CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img26CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img26CargarHidrogeno
+
+    private void img27CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img27CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img27CargarHidrogeno
+
+    private void img28CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img28CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img28CargarHidrogeno
+
+    private void img29CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img29CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img29CargarHidrogeno
+
+    private void img30CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img30CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img30CargarHidrogeno
+
+    private void img31CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img31CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img31CargarHidrogeno
+
+    private void img32CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img32CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img32CargarHidrogeno
+
+    private void img33CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img33CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img33CargarHidrogeno
+
+    private void img34CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img34CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img34CargarHidrogeno
+
+    private void img35CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img35CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img35CargarHidrogeno
+
+    private void img36CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img36CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img36CargarHidrogeno
+
+    private void img37CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img37CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img37CargarHidrogeno
+
+    private void img38CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img38CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img38CargarHidrogeno
+
+    private void img39CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img39CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img39CargarHidrogeno
+
+    private void img40CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img40CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img40CargarHidrogeno
+
+    private void img41CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img41CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img41CargarHidrogeno
+
+    private void img42CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img42CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img42CargarHidrogeno
+
+    private void img43CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img43CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img43CargarHidrogeno
+
+    private void img44CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img44CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img44CargarHidrogeno
+
+    private void img45CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img45CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img45CargarHidrogeno
+
+    private void img46CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img46CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img46CargarHidrogeno
+
+    private void img47CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img47CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img47CargarHidrogeno
+
+    private void img48CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img48CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img48CargarHidrogeno
+
+    private void img49CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img49CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img49CargarHidrogeno
+
+    private void img50CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img50CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img50CargarHidrogeno
+
+    private void img51CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img51CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img51CargarHidrogeno
+
+    private void img52CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img52CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img52CargarHidrogeno
+
+    private void img53CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img53CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img53CargarHidrogeno
+
+    private void img54CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img54CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img54CargarHidrogeno
+
+    private void img55CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img55CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img55CargarHidrogeno
+
+    private void img56CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img56CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img56CargarHidrogeno
+
+    private void img57CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img57CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img57CargarHidrogeno
+
+    private void img58CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img58CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img58CargarHidrogeno
+
+    private void img59CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img59CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img59CargarHidrogeno
+
+    private void img60CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img60CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img60CargarHidrogeno
+
+    private void img61CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img61CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img61CargarHidrogeno
+
+    private void img62CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img62CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img62CargarHidrogeno
+
+    private void img63CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img63CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img63CargarHidrogeno
+
+    private void img64CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img64CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img64CargarHidrogeno
+
+    private void img65CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img65CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img65CargarHidrogeno
+
+    private void img66CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img66CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img66CargarHidrogeno
+
+    private void img67CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img67CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img67CargarHidrogeno
+
+    private void img68CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img68CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img68CargarHidrogeno
+
+    private void img69CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img69CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img69CargarHidrogeno
+
+    private void img70CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img70CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img70CargarHidrogeno
+
+    private void img71CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img71CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img71CargarHidrogeno
+
+    private void img72CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img72CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img72CargarHidrogeno
+
+    private void img73CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img73CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img73CargarHidrogeno
+
+    private void img74CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img74CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img74CargarHidrogeno
+
+    private void img75CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img75CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img75CargarHidrogeno
+
+    private void img76CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img76CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img76CargarHidrogeno
+
+    private void img77CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img77CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img77CargarHidrogeno
+
+    private void img78CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img78CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img78CargarHidrogeno
+
+    private void img79CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img79CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img79CargarHidrogeno
+
+    private void img80CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img80CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img80CargarHidrogeno
+
+    private void img81CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img81CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img81CargarHidrogeno
+
+    private void img82CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img82CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img82CargarHidrogeno
+
+    private void img83CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img83CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img83CargarHidrogeno
+
+    private void img84CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img84CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img84CargarHidrogeno
+
+    private void img85CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img85CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img85CargarHidrogeno
+
+    private void img86CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img86CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img86CargarHidrogeno
+
+    private void img87CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img87CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img87CargarHidrogeno
+
+    private void img88CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img88CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img88CargarHidrogeno
+
+    private void img89CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img89CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img89CargarHidrogeno
+
+    private void img90CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img90CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img90CargarHidrogeno
+
+    private void img91CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img91CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img91CargarHidrogeno
+
+    private void img92CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img92CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img92CargarHidrogeno
+
+    private void img93CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img93CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img93CargarHidrogeno
+
+    private void img94CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img94CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img94CargarHidrogeno
+
+    private void img95CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img95CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img95CargarHidrogeno
+
+    private void img96CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img96CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img96CargarHidrogeno
+
+    private void img97CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img97CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img97CargarHidrogeno
+
+    private void img98CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img98CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img98CargarHidrogeno
+
+    private void img99CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img99CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img99CargarHidrogeno
+
+    private void img100CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img100CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img100CargarHidrogeno
+
+    private void img101CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img101CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img101CargarHidrogeno
+
+    private void img102CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img102CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img102CargarHidrogeno
+
+    private void img103CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img103CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img103CargarHidrogeno
+
+    private void img104CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img104CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img104CargarHidrogeno
+
+    private void img105CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img105CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img105CargarHidrogeno
+
+    private void img106CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img106CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img106CargarHidrogeno
+
+    private void img107CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img107CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img107CargarHidrogeno
+
+    private void img108CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img108CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img108CargarHidrogeno
+
+    private void img109CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img109CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img109CargarHidrogeno
+
+    private void img110CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img110CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img110CargarHidrogeno
+
+    private void img111CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img111CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img111CargarHidrogeno
+
+    private void img112CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img112CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img112CargarHidrogeno
+
+    private void img113CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img113CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img113CargarHidrogeno
+
+    private void img114CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img114CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img114CargarHidrogeno
+
+    private void img115CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img115CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img115CargarHidrogeno
+
+    private void img116CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img116CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img116CargarHidrogeno
+
+    private void img117CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img117CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img117CargarHidrogeno
+
+    private void img118CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img118CargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_img118CargarHidrogeno
+
+    private void fondoCargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_fondoCargarHidrogeno
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fondoCargarHidrogeno
 
     /**
      * @param args the command line arguments
@@ -774,161 +1763,125 @@ public class interfazTabla extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel AreaBotones;
-    private javax.swing.JLabel Fondo;
-    private javax.swing.JButton btn05;
-    private javax.swing.JButton btn06;
-    private javax.swing.JButton btn07;
-    private javax.swing.JButton btn08;
-    private javax.swing.JButton btn09;
-    private javax.swing.JButton btn1;
-    private javax.swing.JButton btn10;
-    private javax.swing.JButton btn11;
-    private javax.swing.JButton btn111;
-    private javax.swing.JButton btn112;
-    private javax.swing.JButton btn113;
-    private javax.swing.JButton btn114;
-    private javax.swing.JButton btn115;
-    private javax.swing.JButton btn116;
-    private javax.swing.JButton btn117;
-    private javax.swing.JButton btn118;
-    private javax.swing.JButton btn119;
-    private javax.swing.JButton btn12;
-    private javax.swing.JButton btn120;
-    private javax.swing.JButton btn121;
-    private javax.swing.JButton btn122;
-    private javax.swing.JButton btn123;
-    private javax.swing.JButton btn124;
-    private javax.swing.JButton btn125;
-    private javax.swing.JButton btn126;
-    private javax.swing.JButton btn127;
-    private javax.swing.JButton btn128;
-    private javax.swing.JButton btn129;
-    private javax.swing.JButton btn13;
-    private javax.swing.JButton btn130;
-    private javax.swing.JButton btn131;
-    private javax.swing.JButton btn132;
-    private javax.swing.JButton btn133;
-    private javax.swing.JButton btn134;
-    private javax.swing.JButton btn135;
-    private javax.swing.JButton btn136;
-    private javax.swing.JButton btn137;
-    private javax.swing.JButton btn138;
-    private javax.swing.JButton btn139;
-    private javax.swing.JButton btn14;
-    private javax.swing.JButton btn140;
-    private javax.swing.JButton btn141;
-    private javax.swing.JButton btn142;
-    private javax.swing.JButton btn143;
-    private javax.swing.JButton btn144;
-    private javax.swing.JButton btn145;
-    private javax.swing.JButton btn146;
-    private javax.swing.JButton btn15;
-    private javax.swing.JButton btn16;
-    private javax.swing.JButton btn17;
-    private javax.swing.JButton btn18;
-    private javax.swing.JButton btn19;
-    private javax.swing.JButton btn2;
-    private javax.swing.JButton btn20;
-    private javax.swing.JButton btn21;
-    private javax.swing.JButton btn22;
-    private javax.swing.JButton btn23;
-    private javax.swing.JButton btn24;
-    private javax.swing.JButton btn25;
-    private javax.swing.JButton btn26;
-    private javax.swing.JButton btn27;
-    private javax.swing.JButton btn28;
-    private javax.swing.JButton btn29;
-    private javax.swing.JButton btn3;
-    private javax.swing.JButton btn30;
-    private javax.swing.JButton btn31;
-    private javax.swing.JButton btn312;
-    private javax.swing.JButton btn32;
-    private javax.swing.JButton btn33;
-    private javax.swing.JButton btn34;
-    private javax.swing.JButton btn35;
-    private javax.swing.JButton btn36;
-    private javax.swing.JButton btn37;
-    private javax.swing.JButton btn38;
-    private javax.swing.JButton btn39;
-    private javax.swing.JButton btn4;
-    private javax.swing.JButton btn40;
-    private javax.swing.JButton btn41;
-    private javax.swing.JButton btn42;
-    private javax.swing.JButton btn43;
-    private javax.swing.JButton btn44;
-    private javax.swing.JButton btn45;
-    private javax.swing.JButton btn4534;
-    private javax.swing.JButton btn46;
-    private javax.swing.JButton btn47;
-    private javax.swing.JButton btn48;
-    private javax.swing.JButton btn49;
-    private javax.swing.JButton btn50;
-    private javax.swing.JButton btn51;
-    private javax.swing.JButton btn52;
-    private javax.swing.JButton btn53;
-    private javax.swing.JButton btn54;
-    private javax.swing.JButton btn55;
-    private javax.swing.JButton btn5534;
-    private javax.swing.JButton btn56;
-    private javax.swing.JButton btn58;
-    private javax.swing.JButton btn59;
-    private javax.swing.JButton btn60;
-    private javax.swing.JButton btn61;
-    private javax.swing.JButton btn612;
-    private javax.swing.JButton btn63;
-    private javax.swing.JButton btn64;
-    private javax.swing.JButton btn65;
-    private javax.swing.JButton btn66;
-    private javax.swing.JButton btn68;
-    private javax.swing.JButton btn69;
-    private javax.swing.JButton btn70;
-    private javax.swing.JButton btn71;
-    private javax.swing.JButton btn73;
-    private javax.swing.JButton btn7323;
-    private javax.swing.JButton btn74;
-    private javax.swing.JButton btn75;
-    private javax.swing.JButton btn76;
-    private javax.swing.JButton btn78;
-    private javax.swing.JButton btn79;
-    private javax.swing.JButton btn80;
-    private javax.swing.JButton btn81;
-    private javax.swing.JButton btn83;
-    private javax.swing.JButton btn84;
-    private javax.swing.JButton btn85;
-    private javax.swing.JButton btn87;
-    private javax.swing.JButton btn88;
-    private javax.swing.JButton btn9;
-    private javax.swing.JButton btn90;
-    private javax.swing.JButton btn91;
-    private javax.swing.JButton btn92;
-    private javax.swing.JButton btn93;
-    private javax.swing.JButton btn94;
-    private javax.swing.JLabel etImagenCentral;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel fondo;
+    private javax.swing.JLabel img1;
+    private javax.swing.JLabel img10;
+    private javax.swing.JLabel img100;
+    private javax.swing.JLabel img101;
+    private javax.swing.JLabel img102;
+    private javax.swing.JLabel img103;
+    private javax.swing.JLabel img104;
+    private javax.swing.JLabel img105;
+    private javax.swing.JLabel img106;
+    private javax.swing.JLabel img107;
+    private javax.swing.JLabel img108;
+    private javax.swing.JLabel img109;
+    private javax.swing.JLabel img11;
+    private javax.swing.JLabel img110;
+    private javax.swing.JLabel img111;
+    private javax.swing.JLabel img112;
+    private javax.swing.JLabel img113;
+    private javax.swing.JLabel img114;
+    private javax.swing.JLabel img115;
+    private javax.swing.JLabel img116;
+    private javax.swing.JLabel img117;
+    private javax.swing.JLabel img118;
+    private javax.swing.JLabel img12;
+    private javax.swing.JLabel img13;
+    private javax.swing.JLabel img14;
+    private javax.swing.JLabel img15;
+    private javax.swing.JLabel img16;
+    private javax.swing.JLabel img17;
+    private javax.swing.JLabel img18;
+    private javax.swing.JLabel img19;
+    private javax.swing.JLabel img2;
+    private javax.swing.JLabel img20;
+    private javax.swing.JLabel img21;
+    private javax.swing.JLabel img22;
+    private javax.swing.JLabel img23;
+    private javax.swing.JLabel img24;
+    private javax.swing.JLabel img25;
+    private javax.swing.JLabel img26;
+    private javax.swing.JLabel img27;
+    private javax.swing.JLabel img28;
+    private javax.swing.JLabel img29;
+    private javax.swing.JLabel img3;
+    private javax.swing.JLabel img30;
+    private javax.swing.JLabel img31;
+    private javax.swing.JLabel img32;
+    private javax.swing.JLabel img33;
+    private javax.swing.JLabel img34;
+    private javax.swing.JLabel img35;
+    private javax.swing.JLabel img36;
+    private javax.swing.JLabel img37;
+    private javax.swing.JLabel img38;
+    private javax.swing.JLabel img39;
+    private javax.swing.JLabel img4;
+    private javax.swing.JLabel img40;
+    private javax.swing.JLabel img41;
+    private javax.swing.JLabel img42;
+    private javax.swing.JLabel img43;
+    private javax.swing.JLabel img44;
+    private javax.swing.JLabel img45;
+    private javax.swing.JLabel img46;
+    private javax.swing.JLabel img47;
+    private javax.swing.JLabel img48;
+    private javax.swing.JLabel img49;
+    private javax.swing.JLabel img5;
+    private javax.swing.JLabel img50;
+    private javax.swing.JLabel img51;
+    private javax.swing.JLabel img52;
+    private javax.swing.JLabel img53;
+    private javax.swing.JLabel img54;
+    private javax.swing.JLabel img55;
+    private javax.swing.JLabel img56;
+    private javax.swing.JLabel img57;
+    private javax.swing.JLabel img58;
+    private javax.swing.JLabel img59;
+    private javax.swing.JLabel img6;
+    private javax.swing.JLabel img60;
+    private javax.swing.JLabel img61;
+    private javax.swing.JLabel img62;
+    private javax.swing.JLabel img63;
+    private javax.swing.JLabel img64;
+    private javax.swing.JLabel img65;
+    private javax.swing.JLabel img66;
+    private javax.swing.JLabel img67;
+    private javax.swing.JLabel img68;
+    private javax.swing.JLabel img69;
+    private javax.swing.JLabel img7;
+    private javax.swing.JLabel img70;
+    private javax.swing.JLabel img71;
+    private javax.swing.JLabel img72;
+    private javax.swing.JLabel img73;
+    private javax.swing.JLabel img74;
+    private javax.swing.JLabel img75;
+    private javax.swing.JLabel img76;
+    private javax.swing.JLabel img77;
+    private javax.swing.JLabel img78;
+    private javax.swing.JLabel img79;
+    private javax.swing.JLabel img8;
+    private javax.swing.JLabel img80;
+    private javax.swing.JLabel img81;
+    private javax.swing.JLabel img82;
+    private javax.swing.JLabel img83;
+    private javax.swing.JLabel img84;
+    private javax.swing.JLabel img85;
+    private javax.swing.JLabel img86;
+    private javax.swing.JLabel img87;
+    private javax.swing.JLabel img88;
+    private javax.swing.JLabel img89;
+    private javax.swing.JLabel img9;
+    private javax.swing.JLabel img90;
+    private javax.swing.JLabel img91;
+    private javax.swing.JLabel img92;
+    private javax.swing.JLabel img93;
+    private javax.swing.JLabel img94;
+    private javax.swing.JLabel img95;
+    private javax.swing.JLabel img96;
+    private javax.swing.JLabel img97;
+    private javax.swing.JLabel img98;
+    private javax.swing.JLabel img99;
     private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables
 }
