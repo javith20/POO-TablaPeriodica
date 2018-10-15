@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Antimonio</nombre>
+      <simbolo>Sb</simbolo>
+      <numeroAtomico>51</numeroAtomico>
+      <bloque>p</bloque>
+      <grupo>15</grupo>
+      <periodo>5</periodo>
+      <masaAtomica>121,760 u</masaAtomica>
+      <descripcion>Estudios arqueológicos e históricos indican que el antimonio y sus sulfuros han sido usados por los humanos al menos durante los últimos 6 milenios. En la antigüedad la antimonita o estibina, Sb2S3, la forma más común de sulfuro de antimonio fue el principal ingrediente del “kohl”, una pasta negra usada por los egipcios, entre otros, como maquillaje para los ojos.2​3​ Los babilonios conocían la forma de obtener antimonio de sus compuestos y lo usaban como ornamento para vasijas.</descripcion>
+      <rutaImagen>img/Sb.jpg</rutaImagen>
+   </Element>
+</xml>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Xenón</nombre>
+      <simbolo>Xe</simbolo>
+      <numeroAtomico>54</numeroAtomico>
+      <bloque>s</bloque>
+      <grupo>1</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>131,293 u</masaAtomica>
+      <descripcion>El xenón es un elemento químico de la tabla periódica cuyo símbolo es Xe y su número atómico el 54. Gas noble inodoro, muy pesado, incoloro, el xenón está presente en la atmósfera terrestre solo en trazas y fue parte del primer compuesto de gas noble sintetizado.</descripcion>
+      <rutaImagen>img/Xe.jpg</rutaImagen>
+   </Element>
+</xml>
+

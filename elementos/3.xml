@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Litio</nombre>
+      <simbolo>Li</simbolo>
+      <numeroAtomico>3</numeroAtomico>
+      <bloque>s</bloque>
+      <grupo>1</grupo>
+      <periodo>2</periodo>
+      <masaAtomica>6.94174064 u</masaAtomica>
+      <descripcion>El litio (en griego: λιθίον, ‘piedrecita’)?1​ es un elemento químico de símbolo Li y número atómico 3. En la tabla periódica, se encuentra en el grupo 1, entre los elementos alcalinos. En su forma pura, es un metal blando, de color blanco plata, que se oxida rápidamente en aire o agua. Su densidad es la mitad de la del agua, siendo el metal y elemento sólido más ligero. Al igual que los demás metales alcalinos es univalente y muy reactivo, aunque menos que el sodio, por lo que no se encuentra libre en la naturaleza. Acercado a una llama la torna carmesí pero, si la combustión es violenta, la llama adquiere un color blanco brillante. </descripcion>
+      <rutaImagen>img/Li.jpg</rutaImagen>
+   </Element>
+</xml>
+

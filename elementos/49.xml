@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Indio </nombre>
+      <simbolo>In</simbolo>
+      <numeroAtomico>49</numeroAtomico>
+      <bloque>p</bloque>
+      <grupo>13</grupo>
+      <periodo>5</periodo>
+      <masaAtomica>	114,818 u</masaAtomica>
+      <descripcion>El indio es un elemento químico de número atómico 49 situado en el grupo 13 de la tabla periódica de los elementos. Su símbolo es In. Es un metal poco abundante, maleable, fácilmente fundible, químicamente similar al aluminio y al galio, pero más parecido al zinc (de hecho, la principal fuente de obtención de este metal es a partir de las minas de zinc). Entre otras aplicaciones, se emplea para formar partículas delgadas que sirven como partículas lubricantes.</descripcion>
+      <rutaImagen>img/In.jpg</rutaImagen>
+   </Element>
+</xml>
+

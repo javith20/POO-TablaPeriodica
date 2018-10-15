@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Molibdeno</nombre>
+      <simbolo>Mo</simbolo>
+      <numeroAtomico>42</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>5</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>95,94 u</masaAtomica>
+      <descripcion>El molibdeno es un elemento químico de número atómico 42 que se encuentra en el grupo 6 de la tabla periódica de los elementos y se simboliza como Mo.
+
+      El molibdeno es un metal esencial desde el punto de vista biológico y se utiliza sobre todo en aceros aleados.
+
+      Es un metal plateado, tiene el sexto punto de fusión más alto de cualquier elemento. El molibdeno no se produce como el metal libre en la naturaleza, sino en varios estados de oxidación en los minerales. Industrialmente, los compuestos de molibdeno se emplean en aplicaciones de alta presión y alta temperatura, como pigmentos y catalizadores.</descripcion>
+      <rutaImagen>img/Mo.jpg</rutaImagen>
+   </Element>
+</xml>
+

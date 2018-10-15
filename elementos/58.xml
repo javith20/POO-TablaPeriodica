@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Cerio</nombre>
+      <simbolo>Ce</simbolo>
+      <numeroAtomico>58</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>140,116 u</masaAtomica>
+      <descripcion>Es un metal blando, de color gris metálico similar al hierro, dúctil, que se oxida fácilmente al contacto con el aire y se torna pardo rojizo. El cerio es el más abundante de los elementos de las tierras raras, su abundancia representa solo el 0,0046% en peso de la corteza terrestre, donde aparece disperso en diversos minerales, como la cerita, bastnasita y monacita.
+      Fue descubierto en 1803 por Martin Heinrich Klaproth y Jöns Jacob Berzelius y de manera independiente también por Wilhelm von Hisinger. Tomó su nombre de Ceres, el planeta enano/asteroide que se había encontrado años antes, concretamente en 1801 (que a su vez fue denominado así en honor a la diosa romana de la agricultura).</descripcion>
+      <rutaImagen>img/Ce.jpg</rutaImagen>
+   </Element>
+</xml>
+

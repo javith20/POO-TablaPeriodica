@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Yodo</nombre>
+      <simbolo>I</simbolo>
+      <numeroAtomico>53</numeroAtomico>
+      <bloque>p</bloque>
+      <grupo>17</grupo>
+      <periodo>5</periodo>
+      <masaAtomica>132,90545 u</masaAtomica>
+      <descripcion>El yodo o iodo es un elemento químico de número atómico 53 situado en el grupo de los halógenos (grupo 17) de la tabla periódica de los elementos. Su símbolo es I (del griego ιώδης, iodes, "violeta"). Este elemento puede encontrarse en forma molecular como yodo diatómico.o.</descripcion>
+      <rutaImagen>img/I.jpg</rutaImagen>
+   </Element>
+</xml>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Cesio</nombre>
+      <simbolo>Cs</simbolo>
+      <numeroAtomico>55</numeroAtomico>
+      <bloque>s</bloque>
+      <grupo>1</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>132,90545 u</masaAtomica>
+      <descripcion>El nombre praseodimio proviene de las palabras griegas prasios didymos, que significan gemelo verde (πρασιος prasios= "verde") (διδυμος didymos= "gemelo"). El praseodimio y el neodimio se descubrieron juntos y por eso se les llamó gemelos, al ver que formaba una capa de óxido verde al contacto del aire, se le añadió a su nombre ese color. Praseodimio es frecuentemente mal pronunciado como praseodinio.</descripcion>
+      <rutaImagen>img/Cs.jpg</rutaImagen>
+   </Element>
+</xml>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Plata</nombre>
+      <simbolo>Ag</simbolo>
+      <numeroAtomico>47</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>11</grupo>
+      <periodo>5</periodo>
+      <masaAtomica>107.8682 u</masaAtomica>
+      <descripcion>La plata es un elemento químico de número atómico 47 situado en el grupo 11 de la tabla periódica de los elementos. Su símbolo es Ag (procede del latín: argentum, "blanco" o "brillante"). Es un metal de transición blanco, brillante, blando, dúctil, maleable.
+      Se encuentra en la naturaleza formando parte de distintos minerales (generalmente en forma de sulfuro) o como plata libre. Es muy común en la naturaleza, de la que representa una parte en 5 mil de corteza terrestre. La mayor parte de su producción se obtiene como subproducto del tratamiento de las minas de cobre, zinc, plomo y oro.</descripcion>
+      <rutaImagen>img/Ag.jpg</rutaImagen>
+   </Element>
+</xml>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Rutenio</nombre>
+      <simbolo>Ru</simbolo>
+      <numeroAtomico>44</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>5</grupo>
+      <periodo>8</periodo>
+      <masaAtomica>101,07 u</masaAtomica>
+      <descripcion>El rutenio es un elemento químico de número atómico 44 situado en el grupo 8 de la tabla periódica de los elementos. Su símbolo es Ru. Es un metal de transición, poco abundante, del grupo del platino.1​ Se encuentra normalmente en minas de platino y se emplea como catalizador en algunas aleaciones de platino.</descripcion>
+      <rutaImagen>img/Ru.jpg</rutaImagen>
+   </Element>
+</xml>
+

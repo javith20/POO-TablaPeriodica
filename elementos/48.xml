@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Cadmio</nombre>
+      <simbolo>Cd</simbolo>
+      <numeroAtomico>48</numeroAtomico>
+      <bloque>u</bloque>
+      <grupo>12</grupo>
+      <periodo>5</periodo>
+      <masaAtomica>112,411 u</masaAtomica>
+      <descripcion>El cadmio (en latín, cadmia, y en griego kadmeia, que significa "calamina", el nombre que recibía antiguamente el carbonato de zinc) fue descubierto en Alemania en 1817 por Friedrich Strohmeyer. Lo encontró como impureza de algunas muestras de carbonato de zinc. Strohmeyer observó que esas muestras, en particular, cambiaban de color al calentarlas, lo cual no le ocurría al carbonato de zinc puro. Strohmeyer fue lo suficientemente persistente para continuar la observación consiguiendo aislar el elemento mediante el tueste y posterior reducción del sulfuro.</descripcion>
+      <rutaImagen>img/Cd.jpg</rutaImagen>
+   </Element>
+</xml>
+

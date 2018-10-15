@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Berilio</nombre>
+      <simbolo>Ba</simbolo>
+      <numeroAtomico>4</numeroAtomico>
+      <bloque>s</bloque>
+      <grupo>2</grupo>
+      <periodo>2</periodo>
+      <masaAtomica>9.0122 u</masaAtomica>
+      <descripcion>El berilio es un elemento químico de símbolo Be y número atómico 4. Es un elemento Alcalinotérreo bivalente, tóxico, de color gris, duro, ligero y quebradizo. Se emplea principalmente como endurecedor en aleaciones, especialmente de cobre. </descripcion>
+      <rutaImagen>img/Ba.jpg</rutaImagen>
+   </Element>
+</xml>
+

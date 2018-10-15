@@ -6,6 +6,7 @@
 package TablaPeriodica;
 
 import Archivos.AdministradorArchivos;
+import java.util.Collections;
 import javax.swing.ImageIcon;
 
 /**
@@ -23,7 +24,8 @@ public class interfazTabla extends javax.swing.JFrame {
         initComponents();
 
         rsscalelabel.RSScaleLabel.setScaleLabel(fondo, "tabla.jpg");
-
+       
+      
     }
 
     /**
@@ -1363,467 +1365,471 @@ public class interfazTabla extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void img2CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img2CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(1);
     }//GEN-LAST:event_img2CargarHidrogeno
 
     private void img3CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img3CargarHidrogeno
-        // TODO add your handling code here:
+       abrirVentana(2);
     }//GEN-LAST:event_img3CargarHidrogeno
 
     private void img4CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img4CargarHidrogeno
-        // TODO add your handling code here:
+     abrirVentana(3);
     }//GEN-LAST:event_img4CargarHidrogeno
 
     private void img5CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img5CargarHidrogeno
-        // TODO add your handling code here:
+       abrirVentana(4);
     }//GEN-LAST:event_img5CargarHidrogeno
 
     private void img6CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img6CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(5);
     }//GEN-LAST:event_img6CargarHidrogeno
 
     private void img7CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img7CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(6);
     }//GEN-LAST:event_img7CargarHidrogeno
 
     private void img8CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img8CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(7);
     }//GEN-LAST:event_img8CargarHidrogeno
 
     private void img9CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img9CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(8);
     }//GEN-LAST:event_img9CargarHidrogeno
 
     private void img10CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img10CargarHidrogeno
-        // TODO add your handling code here:
+ abrirVentana(9);
     }//GEN-LAST:event_img10CargarHidrogeno
 
     private void img11CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img11CargarHidrogeno
-        // TODO add your handling code here:
+       abrirVentana(10);
     }//GEN-LAST:event_img11CargarHidrogeno
 
     private void img12CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img12CargarHidrogeno
-        // TODO add your handling code here:
+       abrirVentana(11);
     }//GEN-LAST:event_img12CargarHidrogeno
 
     private void img13CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img13CargarHidrogeno
-        // TODO add your handling code here:
+             abrirVentana(12);
     }//GEN-LAST:event_img13CargarHidrogeno
 
     private void img14CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img14CargarHidrogeno
-        // TODO add your handling code here:
+        
+       abrirVentana(13);// TODO add your handling code here:
     }//GEN-LAST:event_img14CargarHidrogeno
 
     private void img15CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img15CargarHidrogeno
-        // TODO add your handling code here:
+              abrirVentana(14);
+  
     }//GEN-LAST:event_img15CargarHidrogeno
 
     private void img16CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img16CargarHidrogeno
-        // TODO add your handling code here:
+           abrirVentana(15);
     }//GEN-LAST:event_img16CargarHidrogeno
 
     private void img17CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img17CargarHidrogeno
-        // TODO add your handling code here:
+          abrirVentana(16);
     }//GEN-LAST:event_img17CargarHidrogeno
 
     private void img18CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img18CargarHidrogeno
-        // TODO add your handling code here:
+              abrirVentana(17);
     }//GEN-LAST:event_img18CargarHidrogeno
 
     private void img19CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img19CargarHidrogeno
-        // TODO add your handling code here:
+               abrirVentana(18);
     }//GEN-LAST:event_img19CargarHidrogeno
 
     private void img20CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img20CargarHidrogeno
-        // TODO add your handling code here:
+               abrirVentana(19);
     }//GEN-LAST:event_img20CargarHidrogeno
 
     private void img21CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img21CargarHidrogeno
-        // TODO add your handling code here:
+              abrirVentana(20);
     }//GEN-LAST:event_img21CargarHidrogeno
 
     private void img22CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img22CargarHidrogeno
-        // TODO add your handling code here:
+               abrirVentana(21);
     }//GEN-LAST:event_img22CargarHidrogeno
 
     private void img23CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img23CargarHidrogeno
-        // TODO add your handling code here:
+              abrirVentana(22);
     }//GEN-LAST:event_img23CargarHidrogeno
 
     private void img24CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img24CargarHidrogeno
-        // TODO add your handling code here:
+              abrirVentana(23);
     }//GEN-LAST:event_img24CargarHidrogeno
 
     private void img25CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img25CargarHidrogeno
-        // TODO add your handling code here:
+            abrirVentana(24);
     }//GEN-LAST:event_img25CargarHidrogeno
 
     private void img26CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img26CargarHidrogeno
-        // TODO add your handling code here:
+             abrirVentana(25);
     }//GEN-LAST:event_img26CargarHidrogeno
 
     private void img27CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img27CargarHidrogeno
-        // TODO add your handling code here:
+             abrirVentana(26);
     }//GEN-LAST:event_img27CargarHidrogeno
 
     private void img28CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img28CargarHidrogeno
-        // TODO add your handling code here:
+             abrirVentana(27);
     }//GEN-LAST:event_img28CargarHidrogeno
 
     private void img29CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img29CargarHidrogeno
-        // TODO add your handling code here:
+            abrirVentana(28);
     }//GEN-LAST:event_img29CargarHidrogeno
 
     private void img30CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img30CargarHidrogeno
-        // TODO add your handling code here:
+               abrirVentana(29);
     }//GEN-LAST:event_img30CargarHidrogeno
 
     private void img31CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img31CargarHidrogeno
-        // TODO add your handling code here:
+              abrirVentana(30);
     }//GEN-LAST:event_img31CargarHidrogeno
 
     private void img32CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img32CargarHidrogeno
-        // TODO add your handling code here:
+            abrirVentana(31);
     }//GEN-LAST:event_img32CargarHidrogeno
 
     private void img33CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img33CargarHidrogeno
-        // TODO add your handling code here:
+              abrirVentana(32);
     }//GEN-LAST:event_img33CargarHidrogeno
 
     private void img34CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img34CargarHidrogeno
-        // TODO add your handling code here:
+               abrirVentana(33);
     }//GEN-LAST:event_img34CargarHidrogeno
 
     private void img35CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img35CargarHidrogeno
-        // TODO add your handling code here:
+              abrirVentana(34);
     }//GEN-LAST:event_img35CargarHidrogeno
 
     private void img36CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img36CargarHidrogeno
-        // TODO add your handling code here:
+              abrirVentana(35);
     }//GEN-LAST:event_img36CargarHidrogeno
 
     private void img37CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img37CargarHidrogeno
-        // TODO add your handling code here:
+               abrirVentana(36);
     }//GEN-LAST:event_img37CargarHidrogeno
 
     private void img38CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img38CargarHidrogeno
-        // TODO add your handling code here:
+         abrirVentana(37);
     }//GEN-LAST:event_img38CargarHidrogeno
 
     private void img39CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img39CargarHidrogeno
-        // TODO add your handling code here:
+          abrirVentana(38);
     }//GEN-LAST:event_img39CargarHidrogeno
 
     private void img40CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img40CargarHidrogeno
-        // TODO add your handling code here:
+         abrirVentana(39);
     }//GEN-LAST:event_img40CargarHidrogeno
 
     private void img41CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img41CargarHidrogeno
-        // TODO add your handling code here:
+          abrirVentana(40);
     }//GEN-LAST:event_img41CargarHidrogeno
 
     private void img42CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img42CargarHidrogeno
-        // TODO add your handling code here:
+            abrirVentana(41);
     }//GEN-LAST:event_img42CargarHidrogeno
 
     private void img43CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img43CargarHidrogeno
-        // TODO add your handling code here:
+            abrirVentana(42);
     }//GEN-LAST:event_img43CargarHidrogeno
 
     private void img44CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img44CargarHidrogeno
         // TODO add your handling code here:
+            abrirVentana(43);
     }//GEN-LAST:event_img44CargarHidrogeno
 
     private void img45CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img45CargarHidrogeno
-        // TODO add your handling code here:
+            abrirVentana(44);
     }//GEN-LAST:event_img45CargarHidrogeno
 
     private void img46CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img46CargarHidrogeno
-        // TODO add your handling code here:
+         abrirVentana(45);
     }//GEN-LAST:event_img46CargarHidrogeno
 
     private void img47CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img47CargarHidrogeno
-        // TODO add your handling code here:
+         abrirVentana(46);
     }//GEN-LAST:event_img47CargarHidrogeno
 
     private void img48CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img48CargarHidrogeno
-        // TODO add your handling code here:
+           abrirVentana(47);
     }//GEN-LAST:event_img48CargarHidrogeno
 
     private void img49CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img49CargarHidrogeno
-        // TODO add your handling code here:
+           abrirVentana(48);
     }//GEN-LAST:event_img49CargarHidrogeno
 
     private void img50CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img50CargarHidrogeno
-        // TODO add your handling code here:
+            abrirVentana(49);
     }//GEN-LAST:event_img50CargarHidrogeno
 
     private void img51CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img51CargarHidrogeno
-        // TODO add your handling code here:
+           abrirVentana(50);
     }//GEN-LAST:event_img51CargarHidrogeno
 
     private void img52CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img52CargarHidrogeno
-        // TODO add your handling code here:
+                   abrirVentana(51);
     }//GEN-LAST:event_img52CargarHidrogeno
 
     private void img53CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img53CargarHidrogeno
-        // TODO add your handling code here:
+             abrirVentana(52);
     }//GEN-LAST:event_img53CargarHidrogeno
 
     private void img54CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img54CargarHidrogeno
-        // TODO add your handling code here:
+                 abrirVentana(53);
     }//GEN-LAST:event_img54CargarHidrogeno
 
     private void img55CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img55CargarHidrogeno
-        // TODO add your handling code here:
+           abrirVentana(54);
     }//GEN-LAST:event_img55CargarHidrogeno
 
     private void img56CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img56CargarHidrogeno
-        // TODO add your handling code here:
+                  abrirVentana(55);
     }//GEN-LAST:event_img56CargarHidrogeno
 
     private void img57CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img57CargarHidrogeno
-        // TODO add your handling code here:
+                  abrirVentana(56);
     }//GEN-LAST:event_img57CargarHidrogeno
 
     private void img58CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img58CargarHidrogeno
-        // TODO add your handling code here:
+                   abrirVentana(57);
     }//GEN-LAST:event_img58CargarHidrogeno
 
     private void img59CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img59CargarHidrogeno
-        // TODO add your handling code here:
+                   abrirVentana(58);
     }//GEN-LAST:event_img59CargarHidrogeno
 
     private void img60CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img60CargarHidrogeno
-        // TODO add your handling code here:
+              abrirVentana(59);
     }//GEN-LAST:event_img60CargarHidrogeno
 
     private void img61CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img61CargarHidrogeno
-        // TODO add your handling code here:
+             abrirVentana(60);
     }//GEN-LAST:event_img61CargarHidrogeno
 
     private void img62CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img62CargarHidrogeno
-        // TODO add your handling code here:
+                   abrirVentana(61);
     }//GEN-LAST:event_img62CargarHidrogeno
 
     private void img63CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img63CargarHidrogeno
-        // TODO add your handling code here:
+                  abrirVentana(62);
     }//GEN-LAST:event_img63CargarHidrogeno
 
     private void img64CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img64CargarHidrogeno
-        // TODO add your handling code here:
+                  abrirVentana(63);
     }//GEN-LAST:event_img64CargarHidrogeno
 
     private void img65CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img65CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(64);
     }//GEN-LAST:event_img65CargarHidrogeno
 
     private void img66CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img66CargarHidrogeno
-        // TODO add your handling code here:
+    abrirVentana(65);
+// TODO add your handling code here:
     }//GEN-LAST:event_img66CargarHidrogeno
 
     private void img67CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img67CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(66);// TODO add your handling code here:
     }//GEN-LAST:event_img67CargarHidrogeno
 
     private void img68CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img68CargarHidrogeno
-        // TODO add your handling code here:
+       abrirVentana(67); // TODO add your handling code here:
     }//GEN-LAST:event_img68CargarHidrogeno
 
     private void img69CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img69CargarHidrogeno
-        // TODO add your handling code here:
+     abrirVentana(68);  // TODO add your handling code here:
     }//GEN-LAST:event_img69CargarHidrogeno
 
     private void img70CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img70CargarHidrogeno
-        // TODO add your handling code here:
+      abrirVentana(69);  // TODO add your handling code here:
     }//GEN-LAST:event_img70CargarHidrogeno
 
     private void img71CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img71CargarHidrogeno
-        // TODO add your handling code here:
+     abrirVentana(70);   // TODO add your handling code here:
     }//GEN-LAST:event_img71CargarHidrogeno
 
     private void img72CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img72CargarHidrogeno
-        // TODO add your handling code here:
+       abrirVentana(71);   // TODO add your handling code here:
     }//GEN-LAST:event_img72CargarHidrogeno
 
     private void img73CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img73CargarHidrogeno
-        // TODO add your handling code here:
+      abrirVentana(72);    // TODO add your handling code here:
     }//GEN-LAST:event_img73CargarHidrogeno
 
     private void img74CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img74CargarHidrogeno
-        // TODO add your handling code here:
+      abrirVentana(73);    // TODO add your handling code here:
     }//GEN-LAST:event_img74CargarHidrogeno
 
     private void img75CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img75CargarHidrogeno
-        // TODO add your handling code here:
+      abrirVentana(74);    // TODO add your handling code here:
     }//GEN-LAST:event_img75CargarHidrogeno
 
     private void img76CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img76CargarHidrogeno
-        // TODO add your handling code here:
+       abrirVentana(75);   // TODO add your handling code here:
     }//GEN-LAST:event_img76CargarHidrogeno
 
     private void img77CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img77CargarHidrogeno
-        // TODO add your handling code here:
+      abrirVentana(76);    // TODO add your handling code here:
     }//GEN-LAST:event_img77CargarHidrogeno
 
     private void img78CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img78CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(77);  // TODO add your handling code here:
     }//GEN-LAST:event_img78CargarHidrogeno
 
     private void img79CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img79CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(78);  // TODO add your handling code here:
     }//GEN-LAST:event_img79CargarHidrogeno
 
     private void img80CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img80CargarHidrogeno
-        // TODO add your handling code here:
+       abrirVentana(79);   // TODO add your handling code here:
     }//GEN-LAST:event_img80CargarHidrogeno
 
     private void img81CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img81CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(80);  // TODO add your handling code here:
     }//GEN-LAST:event_img81CargarHidrogeno
 
     private void img82CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img82CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(81);  // TODO add your handling code here:
     }//GEN-LAST:event_img82CargarHidrogeno
 
     private void img83CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img83CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(82);  // TODO add your handling code here:
     }//GEN-LAST:event_img83CargarHidrogeno
 
     private void img84CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img84CargarHidrogeno
-        // TODO add your handling code here:
+         abrirVentana(83); // TODO add your handling code here:
     }//GEN-LAST:event_img84CargarHidrogeno
 
     private void img85CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img85CargarHidrogeno
-        // TODO add your handling code here:
+       abrirVentana(84);   // TODO add your handling code here:
     }//GEN-LAST:event_img85CargarHidrogeno
 
     private void img86CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img86CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(85);  // TODO add your handling code here:
     }//GEN-LAST:event_img86CargarHidrogeno
 
     private void img87CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img87CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(86);  // TODO add your handling code here:
     }//GEN-LAST:event_img87CargarHidrogeno
 
     private void img88CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img88CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(87);  // TODO add your handling code here:
     }//GEN-LAST:event_img88CargarHidrogeno
 
     private void img89CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img89CargarHidrogeno
-        // TODO add your handling code here:
+         abrirVentana(88); // TODO add your handling code here:
     }//GEN-LAST:event_img89CargarHidrogeno
 
     private void img90CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img90CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(89);  // TODO add your handling code here:
     }//GEN-LAST:event_img90CargarHidrogeno
 
     private void img91CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img91CargarHidrogeno
-        // TODO add your handling code here:
+       abrirVentana(90);   // TODO add your handling code here:
     }//GEN-LAST:event_img91CargarHidrogeno
 
     private void img92CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img92CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(91);  // TODO add your handling code here:
     }//GEN-LAST:event_img92CargarHidrogeno
 
     private void img93CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img93CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(92);  // TODO add your handling code here:
     }//GEN-LAST:event_img93CargarHidrogeno
 
     private void img94CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img94CargarHidrogeno
-        // TODO add your handling code here:
+      abrirVentana(93);    // TODO add your handling code here:
     }//GEN-LAST:event_img94CargarHidrogeno
 
     private void img95CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img95CargarHidrogeno
-        // TODO add your handling code here:
+         abrirVentana(94); // TODO add your handling code here:
     }//GEN-LAST:event_img95CargarHidrogeno
 
     private void img96CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img96CargarHidrogeno
-        // TODO add your handling code here:
+          abrirVentana(95);    // TODO add your handling code here:
     }//GEN-LAST:event_img96CargarHidrogeno
 
     private void img97CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img97CargarHidrogeno
-        // TODO add your handling code here:
+          abrirVentana(96);// TODO add your handling code here:
     }//GEN-LAST:event_img97CargarHidrogeno
 
     private void img98CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img98CargarHidrogeno
-        // TODO add your handling code here:
+          abrirVentana(97);// TODO add your handling code here:
     }//GEN-LAST:event_img98CargarHidrogeno
 
     private void img99CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img99CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(98);  // TODO add your handling code here:
     }//GEN-LAST:event_img99CargarHidrogeno
 
     private void img100CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img100CargarHidrogeno
-        // TODO add your handling code here:
+       abrirVentana(99);   // TODO add your handling code here:
     }//GEN-LAST:event_img100CargarHidrogeno
 
     private void img101CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img101CargarHidrogeno
-        // TODO add your handling code here:
+         abrirVentana(100); // TODO add your handling code here:
     }//GEN-LAST:event_img101CargarHidrogeno
 
     private void img102CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img102CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(101);// TODO add your handling code here:
     }//GEN-LAST:event_img102CargarHidrogeno
 
     private void img103CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img103CargarHidrogeno
-        // TODO add your handling code here:
+       abrirVentana(102); // TODO add your handling code here:
     }//GEN-LAST:event_img103CargarHidrogeno
 
     private void img104CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img104CargarHidrogeno
-        // TODO add your handling code here:
+      abrirVentana(103);  // TODO add your handling code here:
     }//GEN-LAST:event_img104CargarHidrogeno
 
     private void img105CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img105CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(104);// TODO add your handling code here:
     }//GEN-LAST:event_img105CargarHidrogeno
 
     private void img106CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img106CargarHidrogeno
-        // TODO add your handling code here:
+       abrirVentana(105); // TODO add your handling code here:
     }//GEN-LAST:event_img106CargarHidrogeno
 
     private void img107CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img107CargarHidrogeno
-        // TODO add your handling code here:
+       abrirVentana(106); // TODO add your handling code here:
     }//GEN-LAST:event_img107CargarHidrogeno
 
     private void img108CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img108CargarHidrogeno
-        // TODO add your handling code here:
+       abrirVentana(107); // TODO add your handling code here:
     }//GEN-LAST:event_img108CargarHidrogeno
 
     private void img109CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img109CargarHidrogeno
-        // TODO add your handling code here:
+      abrirVentana(108);  // TODO add your handling code here:
     }//GEN-LAST:event_img109CargarHidrogeno
 
     private void img110CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img110CargarHidrogeno
-        // TODO add your handling code here:
+      abrirVentana(109);  // TODO add your handling code here:
     }//GEN-LAST:event_img110CargarHidrogeno
 
     private void img111CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img111CargarHidrogeno
-        // TODO add your handling code here:
+       abrirVentana(110); // TODO add your handling code here:
     }//GEN-LAST:event_img111CargarHidrogeno
 
     private void img112CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img112CargarHidrogeno
-        // TODO add your handling code here:
+       abrirVentana(111); // TODO add your handling code here:
     }//GEN-LAST:event_img112CargarHidrogeno
 
     private void img113CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img113CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(112);// TODO add your handling code here:
     }//GEN-LAST:event_img113CargarHidrogeno
 
     private void img114CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img114CargarHidrogeno
-        // TODO add your handling code here:
+       abrirVentana(113); // TODO add your handling code here:
     }//GEN-LAST:event_img114CargarHidrogeno
 
     private void img115CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img115CargarHidrogeno
-        // TODO add your handling code here:
+       abrirVentana(114);
     }//GEN-LAST:event_img115CargarHidrogeno
 
     private void img116CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img116CargarHidrogeno
-        // TODO add your handling code here:
+       abrirVentana(115);
     }//GEN-LAST:event_img116CargarHidrogeno
 
     private void img117CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img117CargarHidrogeno
-        // TODO add your handling code here:
+        abrirVentana(116);
     }//GEN-LAST:event_img117CargarHidrogeno
 
     private void img118CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img118CargarHidrogeno

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Xenón</nombre>
+      <simbolo>Xe</simbolo>
+      <numeroAtomico>54</numeroAtomico>
+      <bloque>p</bloque>
+      <grupo>18</grupo>
+      <periodo>5</periodo>
+      <masaAtomica>131,293 u</masaAtomica>
+      <descripcion>El xenón es un miembro de los elementos de valencia ocho llamados gases nobles o inertes. La palabra "inerte" ya no se usa para describir esta serie química, dado que algunos elementos de valencia cero forman compuestos. En un tubo lleno de gas xenón, se emite un brillo azul cuando se le excita con una descarga eléctrica. Se ha conseguido xenón metálico aplicándole presiones de varios cientos de kilobares. El xenón también puede formar clatratos con agua cuando sus átomos quedan atrapados en un entramado de moléculas de oxígeno.</descripcion>
+      <rutaImagen>img/Xe.jpg</rutaImagen>
+   </Element>
+</xml>
+

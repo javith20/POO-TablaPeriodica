@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Paladio</nombre>
+      <simbolo>Pd</simbolo>
+      <numeroAtomico>46</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>10</grupo>
+      <periodo>5</periodo>
+      <masaAtomica>  106,42 u</masaAtomica>
+      <descripcion>l paladio es un elemento químico de número atómico 46 situado en el grupo 10 de la tabla periódica de los elementos. Su símbolo es Pd. Es un metal de transición del grupo del platino, blando, dúctil, maleable y poco abundante. Se parece químicamente al platino y se extrae de algunas minas de cobre y níquel. Se emplea principalmente como catalizador y en joyería. El paladio es un metal raro y brillante de color blanco plateado que fue descubierto en 1803 por William Hyde Wollaston, y lleva el nombre del asteroide Palas, el cual recibe también su nombre de la diosa Palas o Atenea.</descripcion>
+      <rutaImagen>img/Pd.jpg</rutaImagen>
+   </Element>
+</xml>
+

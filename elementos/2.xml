@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Helio</nombre>
+      <simbolo>He</simbolo>
+      <numeroAtomico>2</numeroAtomico>
+      <bloque>s</bloque>
+      <grupo>18</grupo>
+      <periodo>1</periodo>
+      <masaAtomica>1,00797 u</masaAtomica>
+      <descripcion>El helio (del griego: ἥλιος [hḗlios], «Sol», por haberse inferido en 1868 su existencia en la atmósfera solar)1​ es un elemento químico de número atómico 2, símbolo He y peso atómico estándar de 4,0026. Pertenece al grupo 18 de la tabla periódica de los elementos, ya que al tener el nivel de energía completo presenta las propiedades de un gas noble. Es decir, es inerte (no reacciona) y al igual que estos, es un gas monoatómico incoloro e inodoro que cuenta con el menor punto de ebullición de todos los elementos químicos y solo puede ser licuado bajo presiones muy grandes y no puede ser congelado.</descripcion>
+      <rutaImagen>img/He.jpg</rutaImagen>
+   </Element>
+</xml>
+

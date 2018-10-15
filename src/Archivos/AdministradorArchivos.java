@@ -29,6 +29,7 @@ public class AdministradorArchivos {
     private void cargarElementos() {
         ArrayList<String> aux;
         //Recorre lista de atributos de el xml
+        System.err.println(dirElementos);
         for (int indice = 0; dirElementos.list().length > indice; indice++) {
             aux = lectorXML.getListaElementos(dirElementos.getAbsolutePath() + "\\" + dirElementos.list()[indice], "Element");
             Element nuevo;

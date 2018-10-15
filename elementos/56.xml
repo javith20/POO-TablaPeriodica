@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Bario</nombre>
+      <simbolo>Ba</simbolo>
+      <numeroAtomico>56</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>137,327 u</masaAtomica>
+      <descripcion>El bario es un elemento químico de la tabla periódica cuyo símbolo es Ba y su número atómico es 56. Metal alcalinotérreo, el bario es el 18º elemento más común, ocupando una parte de 2.000 de la corteza terrestre. Su masa atómica es 137,34. Su punto de fusión está a 725 °C, su punto de ebullición a 1.640 °C, y su densidad relativa es 3,5. Su principal mena es la baritina.</descripcion>
+      <rutaImagen>img/Ba.jpg</rutaImagen>
+   </Element>
+</xml>
+

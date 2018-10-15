@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Estaño</nombre>
+      <simbolo>Sn</simbolo>
+      <numeroAtomico>50</numeroAtomico>
+      <bloque>p</bloque>
+      <grupo>14</grupo>
+      <periodo>5</periodo>
+      <masaAtomica>1118,710 u</masaAtomica>
+      <descripcion>El estaño es un elemento químico de símbolo Sn (del latín stannum) y número atómico 50. Está situado en el grupo 14 de la tabla periódica de los elementos. Se conocen 10 isótopos estables. Su principal mena es la casiterita. Es un metal blanco, maleable, que se oxida fácilmente, a temperatura ambiente, cambiando de color a un gris más opaco, y es resistente a la corrosión. Se encuentra en muchas aleaciones y se usa para recubrir otros metales protegiéndolos de la corrosión. Al doblar una barra de este metal se produce un sonido característico llamado grito del estaño, producido por la fricción de los cristales que la componen.</descripcion>
+      <rutaImagen>img/Sn.jpg</rutaImagen>
+   </Element>
+</xml>
+

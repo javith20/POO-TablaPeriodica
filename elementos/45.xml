@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Rodio</nombre>
+      <simbolo>Rh</simbolo>
+      <numeroAtomico>45</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>9</grupo>
+      <periodo>5</periodo>
+      <masaAtomica>	102,90550 u</masaAtomica>
+      <descripcion>El rodio es un elemento químico de número atómico 45 situado en el grupo 9 de la tabla periódica de los elementos. Su símbolo es Rh. Es un metal de transición, poco abundante, del grupo del platino. Se encuentra normalmente en minas de platino y se emplea como catalizador en algunas aleaciones de platino</descripcion>
+      <rutaImagen>img/Rh.jpg</rutaImagen>
+   </Element>
+</xml>
+

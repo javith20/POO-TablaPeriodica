@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Neodimio</nombre>
+      <simbolo>Nd</simbolo>
+      <numeroAtomico>60</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>144.24 u</masaAtomica>
+      <descripcion>El neodimio fue descubierto por Carl Auer von Welsbach, un químico austríaco, en Viena en el año 1885. Separó el neodimio, así como el praseodimio, de un material denominado didimio por medio de análisis espectroscópicos. Sin embargo, este metal no fue aislado antes de 1925. El nombre neodimio proviene de las palabras griegas neos didymos, que significan nuevo gemelo (neos, nuevo) (didymos, gemelo). El praseodimio y el neodimio se descubrieron juntos y por eso se les llamó gemelos; a este se le llamó nuevo ya que al otro se le había dado el nombre de gemelo verde. El neodimio actualmente es obtenido por un proceso de intercambio iónico de la arena monacita ((Ce, La, Th, Nd, Y) PO4), un material rico en tierras raras, y por electrólisis de sus haluros.</descripcion>
+      <rutaImagen>img/Nd.jpg</rutaImagen>
+   </Element>
+</xml>
+

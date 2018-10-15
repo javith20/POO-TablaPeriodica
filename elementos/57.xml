@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Lantano</nombre>
+      <simbolo>La</simbolo>
+      <numeroAtomico>57</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>	138,9055 u</masaAtomica>
+      <descripcion>Fue descubierto por el químico sueco Carl Gustaf Mosander en el año 1839. Debe su nombre al verbo griego lanthaneîn (λανθανεῖν) que significa "escondido", ya que el metal se encontraba "escondido" en un mineral de cerio. Mosander descubrió el elemento lantano en el nitrato de cerio impuro. Se extrajo de la tierra (óxido insoluble en agua) lantana (óxido de lantano), tratándola con un ácido fuerte. (Otros elementos lantánidos fueron descubiertos en impurezas de minerales de itrio y de cerio).</descripcion>
+      <rutaImagen>img/La.jpg</rutaImagen>
+   </Element>
+</xml>
+

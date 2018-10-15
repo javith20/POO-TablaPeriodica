@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Boro</nombre>
+      <simbolo>B</simbolo>
+      <numeroAtomico>5</numeroAtomico>
+      <bloque>p</bloque>
+      <grupo>13</grupo>
+      <periodo>2</periodo>
+      <masaAtomica>	10,811(7) u</masaAtomica>
+      <descripcion>El boro es un elemento químico de la tabla periódica de los elementos que tiene el símbolo B1​ y número atómico 5, su masa es de 10,811. Es un elemento metaloide, semiconductor, trivalente que existe abundantemente en el mineral bórax. Hay dos alótropos del boro; el boro amorfo es un polvo marrón, pero el boro metálico es negro. La forma metálica es dura (9,5 en la escala de Mohs) y es un mal conductor a temperatura ambiente. No se ha encontrado libre en la naturaleza.  </descripcion>
+      <rutaImagen>img/B.jpg</rutaImagen>
+   </Element>
+</xml>
+

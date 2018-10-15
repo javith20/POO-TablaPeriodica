@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Telurio</nombre>
+      <simbolo>Te</simbolo>
+      <numeroAtomico>52</numeroAtomico>
+      <bloque>s</bloque>
+      <grupo>1</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>127,6 u</masaAtomica>
+      <descripcion>El telurio es un elemento relativamente estable, insoluble en agua y ácido clorhídrico, pero soluble en ácido nítrico y en agua regia. Reacciona con un exceso de cloro para formar dicloruro de teluro, TeCl2 y tetracloruro de teluro, TeCl4. Se oxida con ácido nítrico y produce dióxido de teluro, TeO2, y con ácido crómico para dar ácido telúrico, H2TeO4. En combinación con el hidrógeno y ciertos metales, forma telururos, como el telururo de hidrógeno, H2Te, y el telururo de sodio, Na2Te. El teluro tiene un punto de fusión de 452° C, un punto de ebullición de 990° C, y una densidad relativa de 6,25. Su masa atómica es 127,60. </descripcion>
+      <rutaImagen>img/Te.jpg</rutaImagen>
+   </Element>
+</xml>
+
