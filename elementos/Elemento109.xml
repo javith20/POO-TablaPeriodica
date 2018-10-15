@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Meitnerio</nombre>
+      <simbolo>Mt</simbolo>
+      <numeroAtomico>109</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>10</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>268u</masaAtomica>
+      <descripcion>El meitnerio fue encontrado por accidente en 1982 por Peter Armbruster y Gottfried Münzenberg en el Instituto de Investigación de iones Pesados (Gesellschaft für Schwerionenforschung) en Darmstadt. El equipo lo consiguió bombardeando bismuto-209 con núcleos acelerados de hierro-58. La creación de este elemento demostró que las técnicas de fusión nuclear podían ser usadas para crear nuevos núcleos pesados. </descripcion>
+      <rutaImagen>img/Mt.jpg</rutaImagen>
+   </Element>
+</xml>
+

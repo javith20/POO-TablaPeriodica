@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Erbio</nombre>
+      <simbolo>Er</simbolo>
+      <numeroAtomico>68</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>167,259 u</masaAtomica>
+      <descripcion>El erbio es un elemento químico de la tabla periódica cuyo símbolo es Er y su número atómico es 68. El erbio es un elemento un tanto raro de color plateado perteneciente a los lantánidos y que aparece asociado a otros lantánidos en el mineral gadolinita procedente de Ytterby (Suecia).</descripcion>
+      <rutaImagen>img/Er.jpg</rutaImagen>
+   </Element>
+</xml>
+

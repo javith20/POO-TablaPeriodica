@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Einstenio</nombre>
+      <simbolo>Es</simbolo>
+      <numeroAtomico>99</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>252u</masaAtomica>
+      <descripcion>El einstenio (antiguamente también llamado atenio)1​ es un elemento sintético de la tabla periódica cuyo símbolo es Es y su número atómico es 99. Fue llamado así en honor de Albert Einstein, aunque se descubrió en diciembre de 1952 en los restos de la primera explosión termonuclear en el Pacífico, realizada un mes antes, por el equipo de investigadores formado por G. R. Choppin, A. Ghiorso, B. G. Harvey y S. G. Thompson.2​3​4​. Como muchos elementos de este mismo grupo no se encuentra en la naturaleza, sino que se obtiene artificialmente, además de que su tiempo de vida es menor.  </descripcion>
+      <rutaImagen>img/Es.jpg</rutaImagen>
+   </Element>
+</xml>
+

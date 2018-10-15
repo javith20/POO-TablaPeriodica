@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Prometio</nombre>
+      <simbolo>Pm</simbolo>
+      <numeroAtomico>61</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>145 u</masaAtomica>
+      <descripcion>El prometio es un elemento químico de la tabla periódica cuyo símbolo es Pm y su número atómico es 61. Algún tiempo se le denominó ilinio (por Illinois). Aunque, tras la observación de ciertas líneas espectrales, algunos científicos han reclamado haber descubierto este elemento en la naturaleza, nadie ha podido aislarlo de sustancias naturales.</descripcion>
+      <rutaImagen>img/Pm.jpg</rutaImagen>
+   </Element>
+</xml>
+

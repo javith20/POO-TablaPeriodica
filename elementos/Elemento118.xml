@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Oganesón</nombre>
+      <simbolo>Og</simbolo>
+      <numeroAtomico>118</numeroAtomico>
+      <bloque>p</bloque>
+      <grupo>18</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>294 u u</masaAtomica>
+      <descripcion>El oganesón es el elemento químico más pesado observado en laboratorio y su síntesis, junto a la del livermorio, no estuvo exenta de polémica.14​ El equipo estadounidense que anunció en primer lugar la síntesis en 1999 tuvo que publicar una retractación en 2002 reconociendo que habían amañado los datos experimentales.</descripcion>
+      <rutaImagen>img/og.png</rutaImagen>
+   </Element>
+</xml>
+

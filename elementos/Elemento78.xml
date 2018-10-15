@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Platino</nombre>
+      <simbolo>Pt</simbolo>
+      <numeroAtomico>78</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>10</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>195.084 u</masaAtomica>
+      <descripcion>El platino es un elemento químico de número atómico 78, situado en el grupo 10 de la tabla periódica de los elementos. Su símbolo es Pt. Se trata de un metal de transición blanco grisáceo, precioso, pesado, maleable y dúctil. Es resistente a la corrosión y se encuentra en distintos minerales, frecuentemente junto con níquel y cobre; también se puede encontrar como metal. Se emplea en joyería, equipamiento de laboratorio, contactos eléctricos, empastes y catalizadores de automóviles.</descripcion>
+      <rutaImagen>img/Pt.jpg</rutaImagen>
+   </Element>
+</xml>
+

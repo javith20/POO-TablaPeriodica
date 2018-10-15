@@ -5,14 +5,8 @@
  */
 package TablaPeriodica;
 
-import java.awt.Component;
-import java.awt.Image;
-import java.awt.Label;
-import java.util.ArrayList;
-import javax.swing.Icon;
+import Archivos.AdministradorArchivos;
 import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JOptionPane;
 
 /**
  *
@@ -20,15 +14,15 @@ import javax.swing.JOptionPane;
  */
 public class interfazTabla extends javax.swing.JFrame {
 
-    private ImageIcon central = new ImageIcon("backgrond.jpg");
+    AdministradorArchivos archivos = new AdministradorArchivos();
 
     /**
      * Creates new form interfazTabla
      */
     public interfazTabla() {
         initComponents();
-      
-        rsscalelabel.RSScaleLabel.setScaleLabel(fondo,"tabla.jpg");
+
+        rsscalelabel.RSScaleLabel.setScaleLabel(fondo, "tabla.jpg");
 
     }
 
@@ -172,15 +166,17 @@ public class interfazTabla extends javax.swing.JFrame {
         AreaBotones.setLayout(null);
 
         img1.setBackground(new java.awt.Color(0, 255, 204));
+        img1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                CargarHidrogeno(evt);
+                img1MouseClicked(evt);
             }
         });
         AreaBotones.add(img1);
         img1.setBounds(20, 80, 50, 50);
 
         img2.setBackground(new java.awt.Color(0, 255, 204));
+        img2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img2CargarHidrogeno(evt);
@@ -190,6 +186,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img2.setBounds(880, 80, 50, 50);
 
         img3.setBackground(new java.awt.Color(0, 255, 204));
+        img3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img3CargarHidrogeno(evt);
@@ -199,6 +196,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img3.setBounds(20, 130, 50, 50);
 
         img4.setBackground(new java.awt.Color(0, 255, 204));
+        img4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img4CargarHidrogeno(evt);
@@ -208,6 +206,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img4.setBounds(70, 130, 50, 50);
 
         img5.setBackground(new java.awt.Color(0, 255, 204));
+        img5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img5CargarHidrogeno(evt);
@@ -217,6 +216,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img5.setBounds(630, 130, 50, 50);
 
         img6.setBackground(new java.awt.Color(0, 255, 204));
+        img6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img6CargarHidrogeno(evt);
@@ -226,6 +226,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img6.setBounds(680, 130, 50, 50);
 
         img7.setBackground(new java.awt.Color(0, 255, 204));
+        img7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img7CargarHidrogeno(evt);
@@ -235,6 +236,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img7.setBounds(730, 130, 50, 50);
 
         img8.setBackground(new java.awt.Color(0, 255, 204));
+        img8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img8CargarHidrogeno(evt);
@@ -244,6 +246,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img8.setBounds(780, 130, 50, 50);
 
         img9.setBackground(new java.awt.Color(0, 255, 204));
+        img9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img9.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img9CargarHidrogeno(evt);
@@ -253,6 +256,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img9.setBounds(830, 130, 50, 50);
 
         img10.setBackground(new java.awt.Color(0, 255, 204));
+        img10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img10CargarHidrogeno(evt);
@@ -262,6 +266,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img10.setBounds(880, 130, 50, 50);
 
         img11.setBackground(new java.awt.Color(0, 255, 204));
+        img11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img11.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img11CargarHidrogeno(evt);
@@ -271,6 +276,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img11.setBounds(20, 180, 50, 50);
 
         img12.setBackground(new java.awt.Color(0, 255, 204));
+        img12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img12.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img12CargarHidrogeno(evt);
@@ -280,6 +286,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img12.setBounds(70, 180, 50, 50);
 
         img13.setBackground(new java.awt.Color(0, 255, 204));
+        img13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img13.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img13CargarHidrogeno(evt);
@@ -289,6 +296,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img13.setBounds(630, 180, 50, 50);
 
         img14.setBackground(new java.awt.Color(0, 255, 204));
+        img14.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img14.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img14CargarHidrogeno(evt);
@@ -298,6 +306,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img14.setBounds(680, 180, 50, 50);
 
         img15.setBackground(new java.awt.Color(0, 255, 204));
+        img15.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img15.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img15CargarHidrogeno(evt);
@@ -307,6 +316,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img15.setBounds(730, 180, 50, 50);
 
         img16.setBackground(new java.awt.Color(0, 255, 204));
+        img16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img16.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img16CargarHidrogeno(evt);
@@ -316,6 +326,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img16.setBounds(780, 180, 50, 50);
 
         img17.setBackground(new java.awt.Color(0, 255, 204));
+        img17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img17.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img17CargarHidrogeno(evt);
@@ -325,6 +336,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img17.setBounds(830, 180, 50, 50);
 
         img18.setBackground(new java.awt.Color(0, 255, 204));
+        img18.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img18.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img18CargarHidrogeno(evt);
@@ -334,6 +346,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img18.setBounds(880, 180, 50, 50);
 
         img19.setBackground(new java.awt.Color(0, 255, 204));
+        img19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img19.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img19CargarHidrogeno(evt);
@@ -343,6 +356,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img19.setBounds(20, 230, 50, 50);
 
         img20.setBackground(new java.awt.Color(0, 255, 204));
+        img20.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img20.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img20CargarHidrogeno(evt);
@@ -352,6 +366,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img20.setBounds(70, 230, 50, 50);
 
         img21.setBackground(new java.awt.Color(0, 255, 204));
+        img21.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img21.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img21CargarHidrogeno(evt);
@@ -361,6 +376,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img21.setBounds(120, 230, 50, 50);
 
         img22.setBackground(new java.awt.Color(0, 255, 204));
+        img22.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img22.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img22CargarHidrogeno(evt);
@@ -370,6 +386,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img22.setBounds(170, 230, 50, 50);
 
         img23.setBackground(new java.awt.Color(0, 255, 204));
+        img23.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img23.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img23CargarHidrogeno(evt);
@@ -379,6 +396,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img23.setBounds(230, 230, 50, 50);
 
         img24.setBackground(new java.awt.Color(0, 255, 204));
+        img24.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img24.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img24CargarHidrogeno(evt);
@@ -388,6 +406,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img24.setBounds(280, 230, 50, 50);
 
         img25.setBackground(new java.awt.Color(0, 255, 204));
+        img25.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img25.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img25CargarHidrogeno(evt);
@@ -397,6 +416,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img25.setBounds(330, 230, 50, 50);
 
         img26.setBackground(new java.awt.Color(0, 255, 204));
+        img26.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img26.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img26CargarHidrogeno(evt);
@@ -406,6 +426,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img26.setBounds(380, 230, 50, 50);
 
         img27.setBackground(new java.awt.Color(0, 255, 204));
+        img27.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img27.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img27CargarHidrogeno(evt);
@@ -415,6 +436,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img27.setBounds(430, 230, 50, 50);
 
         img28.setBackground(new java.awt.Color(0, 255, 204));
+        img28.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img28.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img28CargarHidrogeno(evt);
@@ -424,6 +446,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img28.setBounds(480, 230, 50, 50);
 
         img29.setBackground(new java.awt.Color(0, 255, 204));
+        img29.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img29.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img29CargarHidrogeno(evt);
@@ -433,6 +456,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img29.setBounds(530, 230, 50, 50);
 
         img30.setBackground(new java.awt.Color(0, 255, 204));
+        img30.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img30.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img30CargarHidrogeno(evt);
@@ -442,6 +466,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img30.setBounds(580, 230, 50, 50);
 
         img31.setBackground(new java.awt.Color(0, 255, 204));
+        img31.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img31.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img31CargarHidrogeno(evt);
@@ -451,6 +476,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img31.setBounds(630, 230, 50, 50);
 
         img32.setBackground(new java.awt.Color(0, 255, 204));
+        img32.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img32.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img32CargarHidrogeno(evt);
@@ -460,6 +486,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img32.setBounds(680, 230, 50, 50);
 
         img33.setBackground(new java.awt.Color(0, 255, 204));
+        img33.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img33.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img33CargarHidrogeno(evt);
@@ -469,6 +496,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img33.setBounds(730, 230, 50, 50);
 
         img34.setBackground(new java.awt.Color(0, 255, 204));
+        img34.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img34.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img34CargarHidrogeno(evt);
@@ -478,6 +506,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img34.setBounds(780, 230, 50, 50);
 
         img35.setBackground(new java.awt.Color(0, 255, 204));
+        img35.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img35.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img35CargarHidrogeno(evt);
@@ -487,6 +516,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img35.setBounds(830, 230, 50, 50);
 
         img36.setBackground(new java.awt.Color(0, 255, 204));
+        img36.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img36.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img36CargarHidrogeno(evt);
@@ -496,6 +526,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img36.setBounds(880, 230, 50, 50);
 
         img37.setBackground(new java.awt.Color(0, 255, 204));
+        img37.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img37.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img37CargarHidrogeno(evt);
@@ -505,6 +536,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img37.setBounds(20, 280, 50, 50);
 
         img38.setBackground(new java.awt.Color(0, 255, 204));
+        img38.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img38.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img38CargarHidrogeno(evt);
@@ -514,6 +546,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img38.setBounds(70, 280, 50, 50);
 
         img39.setBackground(new java.awt.Color(0, 255, 204));
+        img39.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img39.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img39CargarHidrogeno(evt);
@@ -523,6 +556,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img39.setBounds(120, 280, 50, 50);
 
         img40.setBackground(new java.awt.Color(0, 255, 204));
+        img40.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img40.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img40CargarHidrogeno(evt);
@@ -532,6 +566,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img40.setBounds(170, 280, 50, 50);
 
         img41.setBackground(new java.awt.Color(0, 255, 204));
+        img41.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img41.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img41CargarHidrogeno(evt);
@@ -541,6 +576,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img41.setBounds(230, 280, 50, 50);
 
         img42.setBackground(new java.awt.Color(0, 255, 204));
+        img42.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img42.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img42CargarHidrogeno(evt);
@@ -550,6 +586,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img42.setBounds(280, 280, 50, 50);
 
         img43.setBackground(new java.awt.Color(0, 255, 204));
+        img43.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img43.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img43CargarHidrogeno(evt);
@@ -559,6 +596,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img43.setBounds(330, 280, 50, 50);
 
         img44.setBackground(new java.awt.Color(0, 255, 204));
+        img44.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img44.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img44CargarHidrogeno(evt);
@@ -568,6 +606,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img44.setBounds(380, 280, 50, 50);
 
         img45.setBackground(new java.awt.Color(0, 255, 204));
+        img45.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img45.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img45CargarHidrogeno(evt);
@@ -577,6 +616,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img45.setBounds(430, 280, 50, 50);
 
         img46.setBackground(new java.awt.Color(0, 255, 204));
+        img46.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img46.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img46CargarHidrogeno(evt);
@@ -586,6 +626,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img46.setBounds(480, 280, 50, 50);
 
         img47.setBackground(new java.awt.Color(0, 255, 204));
+        img47.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img47.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img47CargarHidrogeno(evt);
@@ -595,6 +636,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img47.setBounds(530, 280, 50, 50);
 
         img48.setBackground(new java.awt.Color(0, 255, 204));
+        img48.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img48.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img48CargarHidrogeno(evt);
@@ -604,6 +646,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img48.setBounds(580, 280, 50, 50);
 
         img49.setBackground(new java.awt.Color(0, 255, 204));
+        img49.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img49.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img49CargarHidrogeno(evt);
@@ -613,6 +656,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img49.setBounds(630, 280, 50, 50);
 
         img50.setBackground(new java.awt.Color(0, 255, 204));
+        img50.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img50.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img50CargarHidrogeno(evt);
@@ -622,6 +666,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img50.setBounds(680, 280, 50, 50);
 
         img51.setBackground(new java.awt.Color(0, 255, 204));
+        img51.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img51.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img51CargarHidrogeno(evt);
@@ -631,6 +676,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img51.setBounds(780, 280, 50, 50);
 
         img52.setBackground(new java.awt.Color(0, 255, 204));
+        img52.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img52.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img52CargarHidrogeno(evt);
@@ -640,6 +686,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img52.setBounds(730, 280, 50, 50);
 
         img53.setBackground(new java.awt.Color(0, 255, 204));
+        img53.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img53.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img53CargarHidrogeno(evt);
@@ -649,6 +696,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img53.setBounds(830, 280, 50, 50);
 
         img54.setBackground(new java.awt.Color(0, 255, 204));
+        img54.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img54.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img54CargarHidrogeno(evt);
@@ -658,6 +706,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img54.setBounds(880, 280, 50, 50);
 
         img55.setBackground(new java.awt.Color(0, 255, 204));
+        img55.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img55.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img55CargarHidrogeno(evt);
@@ -667,6 +716,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img55.setBounds(20, 330, 50, 50);
 
         img56.setBackground(new java.awt.Color(0, 255, 204));
+        img56.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img56.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img56CargarHidrogeno(evt);
@@ -676,6 +726,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img56.setBounds(70, 330, 50, 50);
 
         img57.setBackground(new java.awt.Color(0, 255, 204));
+        img57.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img57.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img57CargarHidrogeno(evt);
@@ -685,6 +736,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img57.setBounds(180, 440, 50, 50);
 
         img58.setBackground(new java.awt.Color(0, 255, 204));
+        img58.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img58.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img58CargarHidrogeno(evt);
@@ -694,6 +746,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img58.setBounds(230, 440, 50, 50);
 
         img59.setBackground(new java.awt.Color(0, 255, 204));
+        img59.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img59.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img59CargarHidrogeno(evt);
@@ -703,6 +756,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img59.setBounds(280, 440, 50, 50);
 
         img60.setBackground(new java.awt.Color(0, 255, 204));
+        img60.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img60.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img60CargarHidrogeno(evt);
@@ -712,6 +766,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img60.setBounds(330, 440, 50, 50);
 
         img61.setBackground(new java.awt.Color(0, 255, 204));
+        img61.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img61.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img61CargarHidrogeno(evt);
@@ -721,6 +776,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img61.setBounds(380, 440, 50, 50);
 
         img62.setBackground(new java.awt.Color(0, 255, 204));
+        img62.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img62.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img62CargarHidrogeno(evt);
@@ -730,6 +786,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img62.setBounds(430, 440, 50, 50);
 
         img63.setBackground(new java.awt.Color(0, 255, 204));
+        img63.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img63.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img63CargarHidrogeno(evt);
@@ -739,6 +796,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img63.setBounds(480, 440, 50, 50);
 
         img64.setBackground(new java.awt.Color(0, 255, 204));
+        img64.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img64.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img64CargarHidrogeno(evt);
@@ -748,6 +806,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img64.setBounds(530, 440, 50, 50);
 
         img65.setBackground(new java.awt.Color(0, 255, 204));
+        img65.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img65.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img65CargarHidrogeno(evt);
@@ -757,6 +816,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img65.setBounds(580, 440, 50, 50);
 
         img66.setBackground(new java.awt.Color(0, 255, 204));
+        img66.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img66.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img66CargarHidrogeno(evt);
@@ -766,6 +826,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img66.setBounds(630, 440, 50, 50);
 
         img67.setBackground(new java.awt.Color(0, 255, 204));
+        img67.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img67.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img67CargarHidrogeno(evt);
@@ -775,6 +836,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img67.setBounds(680, 440, 50, 50);
 
         img68.setBackground(new java.awt.Color(0, 255, 204));
+        img68.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img68.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img68CargarHidrogeno(evt);
@@ -784,6 +846,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img68.setBounds(730, 440, 50, 50);
 
         img69.setBackground(new java.awt.Color(0, 255, 204));
+        img69.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img69.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img69CargarHidrogeno(evt);
@@ -793,6 +856,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img69.setBounds(780, 440, 50, 50);
 
         img70.setBackground(new java.awt.Color(0, 255, 204));
+        img70.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img70.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img70CargarHidrogeno(evt);
@@ -802,6 +866,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img70.setBounds(830, 440, 50, 50);
 
         img71.setBackground(new java.awt.Color(0, 255, 204));
+        img71.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img71.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img71CargarHidrogeno(evt);
@@ -811,6 +876,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img71.setBounds(880, 440, 50, 50);
 
         img72.setBackground(new java.awt.Color(0, 255, 204));
+        img72.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img72.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img72CargarHidrogeno(evt);
@@ -820,6 +886,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img72.setBounds(170, 330, 50, 50);
 
         img73.setBackground(new java.awt.Color(0, 255, 204));
+        img73.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img73.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img73CargarHidrogeno(evt);
@@ -829,6 +896,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img73.setBounds(230, 330, 50, 50);
 
         img74.setBackground(new java.awt.Color(0, 255, 204));
+        img74.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img74.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img74CargarHidrogeno(evt);
@@ -838,6 +906,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img74.setBounds(280, 330, 50, 50);
 
         img75.setBackground(new java.awt.Color(0, 255, 204));
+        img75.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img75.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img75CargarHidrogeno(evt);
@@ -847,6 +916,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img75.setBounds(330, 330, 50, 50);
 
         img76.setBackground(new java.awt.Color(0, 255, 204));
+        img76.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img76.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img76CargarHidrogeno(evt);
@@ -856,6 +926,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img76.setBounds(380, 330, 50, 50);
 
         img77.setBackground(new java.awt.Color(0, 255, 204));
+        img77.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img77.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img77CargarHidrogeno(evt);
@@ -865,6 +936,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img77.setBounds(430, 330, 50, 50);
 
         img78.setBackground(new java.awt.Color(0, 255, 204));
+        img78.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img78.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img78CargarHidrogeno(evt);
@@ -874,6 +946,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img78.setBounds(480, 330, 50, 50);
 
         img79.setBackground(new java.awt.Color(0, 255, 204));
+        img79.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img79.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img79CargarHidrogeno(evt);
@@ -883,6 +956,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img79.setBounds(530, 330, 50, 50);
 
         img80.setBackground(new java.awt.Color(0, 255, 204));
+        img80.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img80.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img80CargarHidrogeno(evt);
@@ -892,6 +966,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img80.setBounds(580, 330, 50, 50);
 
         img81.setBackground(new java.awt.Color(0, 255, 204));
+        img81.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img81.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img81CargarHidrogeno(evt);
@@ -901,6 +976,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img81.setBounds(630, 330, 50, 50);
 
         img82.setBackground(new java.awt.Color(0, 255, 204));
+        img82.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img82.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img82CargarHidrogeno(evt);
@@ -910,6 +986,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img82.setBounds(680, 330, 50, 50);
 
         img83.setBackground(new java.awt.Color(0, 255, 204));
+        img83.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img83.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img83CargarHidrogeno(evt);
@@ -919,6 +996,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img83.setBounds(730, 330, 50, 50);
 
         img84.setBackground(new java.awt.Color(0, 255, 204));
+        img84.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img84.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img84CargarHidrogeno(evt);
@@ -928,6 +1006,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img84.setBounds(780, 330, 50, 50);
 
         img85.setBackground(new java.awt.Color(0, 255, 204));
+        img85.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img85.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img85CargarHidrogeno(evt);
@@ -937,6 +1016,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img85.setBounds(830, 330, 50, 50);
 
         img86.setBackground(new java.awt.Color(0, 255, 204));
+        img86.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img86.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img86CargarHidrogeno(evt);
@@ -946,6 +1026,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img86.setBounds(880, 330, 50, 50);
 
         img87.setBackground(new java.awt.Color(0, 255, 204));
+        img87.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img87.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img87CargarHidrogeno(evt);
@@ -955,6 +1036,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img87.setBounds(20, 380, 50, 50);
 
         img88.setBackground(new java.awt.Color(0, 255, 204));
+        img88.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img88.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img88CargarHidrogeno(evt);
@@ -964,6 +1046,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img88.setBounds(70, 380, 50, 50);
 
         img89.setBackground(new java.awt.Color(0, 255, 204));
+        img89.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img89.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img89CargarHidrogeno(evt);
@@ -973,6 +1056,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img89.setBounds(180, 490, 50, 50);
 
         img90.setBackground(new java.awt.Color(0, 255, 204));
+        img90.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img90.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img90CargarHidrogeno(evt);
@@ -982,6 +1066,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img90.setBounds(230, 490, 50, 50);
 
         img91.setBackground(new java.awt.Color(0, 255, 204));
+        img91.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img91.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img91CargarHidrogeno(evt);
@@ -991,6 +1076,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img91.setBounds(280, 490, 50, 50);
 
         img92.setBackground(new java.awt.Color(0, 255, 204));
+        img92.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img92.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img92CargarHidrogeno(evt);
@@ -1000,6 +1086,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img92.setBounds(330, 490, 50, 50);
 
         img93.setBackground(new java.awt.Color(0, 255, 204));
+        img93.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img93.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img93CargarHidrogeno(evt);
@@ -1009,6 +1096,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img93.setBounds(380, 490, 50, 50);
 
         img94.setBackground(new java.awt.Color(0, 255, 204));
+        img94.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img94.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img94CargarHidrogeno(evt);
@@ -1018,6 +1106,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img94.setBounds(430, 490, 50, 50);
 
         img95.setBackground(new java.awt.Color(0, 255, 204));
+        img95.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img95.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img95CargarHidrogeno(evt);
@@ -1027,6 +1116,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img95.setBounds(480, 490, 50, 50);
 
         img96.setBackground(new java.awt.Color(0, 255, 204));
+        img96.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img96.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img96CargarHidrogeno(evt);
@@ -1036,6 +1126,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img96.setBounds(530, 490, 50, 50);
 
         img97.setBackground(new java.awt.Color(0, 255, 204));
+        img97.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img97.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img97CargarHidrogeno(evt);
@@ -1045,6 +1136,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img97.setBounds(580, 490, 50, 50);
 
         img98.setBackground(new java.awt.Color(0, 255, 204));
+        img98.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img98.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img98CargarHidrogeno(evt);
@@ -1054,6 +1146,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img98.setBounds(630, 490, 50, 50);
 
         img99.setBackground(new java.awt.Color(0, 255, 204));
+        img99.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img99.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img99CargarHidrogeno(evt);
@@ -1063,6 +1156,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img99.setBounds(680, 490, 50, 50);
 
         img100.setBackground(new java.awt.Color(0, 255, 204));
+        img100.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img100.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img100CargarHidrogeno(evt);
@@ -1072,6 +1166,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img100.setBounds(730, 490, 50, 50);
 
         img101.setBackground(new java.awt.Color(0, 255, 204));
+        img101.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img101.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img101CargarHidrogeno(evt);
@@ -1081,6 +1176,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img101.setBounds(780, 490, 50, 50);
 
         img102.setBackground(new java.awt.Color(0, 255, 204));
+        img102.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img102.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img102CargarHidrogeno(evt);
@@ -1090,6 +1186,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img102.setBounds(830, 490, 50, 50);
 
         img103.setBackground(new java.awt.Color(0, 255, 204));
+        img103.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img103.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img103CargarHidrogeno(evt);
@@ -1099,6 +1196,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img103.setBounds(880, 490, 50, 50);
 
         img104.setBackground(new java.awt.Color(0, 255, 204));
+        img104.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img104.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img104CargarHidrogeno(evt);
@@ -1108,6 +1206,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img104.setBounds(170, 380, 50, 50);
 
         img105.setBackground(new java.awt.Color(0, 255, 204));
+        img105.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img105.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img105CargarHidrogeno(evt);
@@ -1117,6 +1216,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img105.setBounds(230, 380, 50, 50);
 
         img106.setBackground(new java.awt.Color(0, 255, 204));
+        img106.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img106.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img106CargarHidrogeno(evt);
@@ -1126,6 +1226,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img106.setBounds(280, 380, 50, 50);
 
         img107.setBackground(new java.awt.Color(0, 255, 204));
+        img107.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img107.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img107CargarHidrogeno(evt);
@@ -1135,6 +1236,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img107.setBounds(330, 380, 50, 50);
 
         img108.setBackground(new java.awt.Color(0, 255, 204));
+        img108.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img108.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img108CargarHidrogeno(evt);
@@ -1144,6 +1246,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img108.setBounds(380, 380, 50, 50);
 
         img109.setBackground(new java.awt.Color(0, 255, 204));
+        img109.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img109.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img109CargarHidrogeno(evt);
@@ -1153,6 +1256,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img109.setBounds(430, 380, 50, 50);
 
         img110.setBackground(new java.awt.Color(0, 255, 204));
+        img110.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img110.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img110CargarHidrogeno(evt);
@@ -1162,6 +1266,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img110.setBounds(480, 380, 50, 50);
 
         img111.setBackground(new java.awt.Color(0, 255, 204));
+        img111.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img111.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img111CargarHidrogeno(evt);
@@ -1171,6 +1276,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img111.setBounds(530, 380, 50, 50);
 
         img112.setBackground(new java.awt.Color(0, 255, 204));
+        img112.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img112.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img112CargarHidrogeno(evt);
@@ -1180,6 +1286,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img112.setBounds(580, 380, 50, 50);
 
         img113.setBackground(new java.awt.Color(0, 255, 204));
+        img113.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img113.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img113CargarHidrogeno(evt);
@@ -1189,6 +1296,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img113.setBounds(630, 380, 50, 50);
 
         img114.setBackground(new java.awt.Color(0, 255, 204));
+        img114.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img114.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img114CargarHidrogeno(evt);
@@ -1198,6 +1306,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img114.setBounds(680, 380, 50, 50);
 
         img115.setBackground(new java.awt.Color(0, 255, 204));
+        img115.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img115.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img115CargarHidrogeno(evt);
@@ -1207,6 +1316,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img115.setBounds(730, 380, 50, 50);
 
         img116.setBackground(new java.awt.Color(0, 255, 204));
+        img116.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img116.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img116CargarHidrogeno(evt);
@@ -1216,6 +1326,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img116.setBounds(780, 380, 50, 50);
 
         img117.setBackground(new java.awt.Color(0, 255, 204));
+        img117.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img117.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img117CargarHidrogeno(evt);
@@ -1225,6 +1336,7 @@ public class interfazTabla extends javax.swing.JFrame {
         img117.setBounds(830, 380, 50, 50);
 
         img118.setBackground(new java.awt.Color(0, 255, 204));
+        img118.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         img118.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 img118CargarHidrogeno(evt);
@@ -1249,10 +1361,6 @@ public class interfazTabla extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_CargarHidrogeno
-        JOptionPane.showMessageDialog(AreaBotones, "Hidrogeno");        // TODO add your handling code here:
-    }//GEN-LAST:event_CargarHidrogeno
 
     private void img2CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img2CargarHidrogeno
         // TODO add your handling code here:
@@ -1719,12 +1827,22 @@ public class interfazTabla extends javax.swing.JFrame {
     }//GEN-LAST:event_img117CargarHidrogeno
 
     private void img118CargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img118CargarHidrogeno
-        // TODO add your handling code here:
+ abrirVentana(117);
     }//GEN-LAST:event_img118CargarHidrogeno
 
     private void fondoCargarHidrogeno(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_fondoCargarHidrogeno
         // TODO add your handling code here:
     }//GEN-LAST:event_fondoCargarHidrogeno
+
+    private void img1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_img1MouseClicked
+        abrirVentana(0);
+    }//GEN-LAST:event_img1MouseClicked
+
+    private void abrirVentana(int numero) {
+        java.awt.EventQueue.invokeLater(() -> {
+            new Elemento(archivos.getElementos().get(numero)).setVisible(true);
+        });
+    }
 
     /**
      * @param args the command line arguments

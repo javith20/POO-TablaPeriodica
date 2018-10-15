@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Radón</nombre>
+      <simbolo>Rn</simbolo>
+      <numeroAtomico>86</numeroAtomico>
+      <bloque>p</bloque>
+      <grupo>18</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>222u</masaAtomica>
+      <descripcion>El radón fue descubierto en 1900 por Friedrich Ernst Dorn,5​ siendo el quinto elemento radiactivo conocido después del uranio, el torio, el radio y el polonio.6​7​8​9​ En 1900 Dorn informó sobre algunos experimentos en los que notificó que los compuestos de radio emanan un gas radiactivo al que llamó Radium emanation (Ra Em).10​ Anteriormente, en 1899, Pierre y Marie Curie habían observado que el gas emitido por el radio mantuvo su radiactividad durante un mes.11​ Ese mismo año, Robert Bowie Owens y Ernest Rutherford, en la Universidad McGill de Montreal, observaron variaciones al tratar de medir la radiación del óxido de torio.12​ Rutherford se dio cuenta de que los compuestos de torio emiten continuamente un gas radiactivo que conserva los poderes radiactivos durante varios minutos, y llamó primero a este gas emanación (del latín "Emanare"),13​ y después emanación de torio (Th Em). </descripcion>
+      <rutaImagen>img/Rn.png</rutaImagen>
+   </Element>
+</xml>
+

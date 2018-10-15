@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Nobelio</nombre>
+      <simbolo>No</simbolo>
+      <numeroAtomico>102</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>259u</masaAtomica>
+      <descripcion>Fue identificado por primera vez en forma correcta en 1966 por científicos del Laboratorio Fliórov de Reacciones Nucleares en Dubná, Rusia. Se sabe muy poco sobre este elemento, pero los escasos experimentos químicos que se han llevado a cabo han permitido establecer que el mismo forma un ion bivalente estable en solución como también el ion trivalente predicho asociado con su pertenencia al grupo de los actínidos. </descripcion>
+      <rutaImagen>img/No.png</rutaImagen>
+   </Element>
+</xml>
+

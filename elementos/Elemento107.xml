@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Bohrio</nombre>
+      <simbolo>Bh</simbolo>
+      <numeroAtomico>107</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>7</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>264u</masaAtomica>
+      <descripcion>Elemento químico que se espera que tenga propiedades químicas semejantes a las del elemento renio. Fue sintetizado e identificado sin ambigüedad en 1981 por un equipo de Darmstadt, Alemania, equipo dirigido por P. Armbruster y G. </descripcion>
+      <rutaImagen>img/Bh.jpg</rutaImagen>
+   </Element>
+</xml>
+

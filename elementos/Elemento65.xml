@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Terbio</nombre>
+      <simbolo>Tb</simbolo>
+      <numeroAtomico>65</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>	157,25 u</masaAtomica>
+      <descripcion>Gadolinium se nombra por el mineral de la gadolinita, a su vez nombrado para el químico finlandés y geólogo Johan Gadolin.
+
+	En 1880, el químico suizo Jean Charles Galissard de Marignac observó las líneas espectroscópicas debidas al gadolinio en muestras de la gadolinita (que en realidad contiene relativamente poco gadolinio, pero suficiente para mostrarlo en un espectro), y en otro mineral separado cerita. Este último mineral demostró tener mucho más del elemento que mostraba la nueva línea espectral, y Galissard de Marignac finalmente separó un óxido mineral de la cerita que pensó que era el óxido de este nuevo elemento. Llamó al óxido "gadolinia." Dado que se dio cuenta de que la "gadolinia" era el óxido de un nuevo elemento, se le atribuye el descubrimiento del gadolinio. El químico francés Paul Émile Lecoq de Boisbaudran fue quien realizó en realidad la separación del gadolinio metal de la gadolinia, en 1886.</descripcion>
+      <rutaImagen>img/Tb.jpg</rutaImagen>
+   </Element>
+</xml>
+

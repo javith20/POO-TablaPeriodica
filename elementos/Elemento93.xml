@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Neptunio</nombre>
+      <simbolo>Np</simbolo>
+      <numeroAtomico>93</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>237u</masaAtomica>
+      <descripcion>Fue obtenido por primera vez en 1940 por McMillan y Abelson bombardeando uranio con deuterones de gran velocidad. El isótopo 237 ha sido encontrado, en cantidades muy pequeñas, en minas de uranio. Se obtiene más abundantemente como subproducto en la fabricación de plutonio 239. El neptunio metálico se obtiene del trifluoruro de neptunio por reducción con vapor de bario a 1.20 °C.  </descripcion>
+      <rutaImagen>img/Pu.jpg</rutaImagen>
+   </Element>
+</xml>
+

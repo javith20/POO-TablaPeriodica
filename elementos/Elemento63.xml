@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Europio</nombre>
+      <simbolo>Eu</simbolo>
+      <numeroAtomico>63</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>	151,964 u</masaAtomica>
+      <descripcion>El europio es uno de los elementos químicos que forman compuestos fluorescentes usados en dispositivos como televisiones en color, lámparas fluorescentes y cristales. Todos sus compuestos químicos raros tienen propiedades comparables.
+
+	El europio es peligroso en el ambiente de trabajo, debido al hecho de que los vapores y los gases pueden ser inhalados con el aire. Esto puede causar embolias pulmonares, especialmente por exposiciones a largo plazo. El europio puede ser una amenaza para el hígado cuando se acumula en el cuerpo humano.</descripcion>
+      <rutaImagen>img/Eu.jpg</rutaImagen>
+   </Element>
+</xml>
+

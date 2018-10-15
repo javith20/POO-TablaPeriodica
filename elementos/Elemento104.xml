@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Rutherfordio</nombre>
+      <simbolo>Rf</simbolo>
+      <numeroAtomico>104</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>4</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>261u</masaAtomica>
+      <descripcion>En los años sesenta, se produjeron cantidades microscópicas de dubnio en laboratorios de la Unión Soviética y California. Fue descubierto por el ruso Georgii Flerov en 1967-1970, y por el estadounidense Albert Ghiorso en 1970. Cuando se descubrió, la prioridad del descubrimiento y por lo tanto el nombramiento del elemento, se disputó entre los científicos soviéticos y estadounidenses, que unos propusieron llamarlo Nielsbohrio y los otros Hahnio, aunque estos nombres no fueron reconocidos internacionalmente. Desde entonces el elemento se pasó a llamar temporalmente unnilpentio, hasta que en 1997 la Unión Internacional de Química Pura y Aplicada —IUPAC por sus siglas en inglés— estableció como el nombre oficial del elemento a dubnio.</descripcion>
+      <rutaImagen>img/Rf.jpg</rutaImagen>
+   </Element>
+</xml>
+

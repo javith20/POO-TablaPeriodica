@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Teneso</nombre>
+      <simbolo>Ts</simbolo>
+      <numeroAtomico>117</numeroAtomico>
+      <bloque>p</bloque>
+      <grupo>17</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>294u</masaAtomica>
+      <descripcion>Su descubrimiento se anunció en 2010 y fue fruto de una colaboración entre científicos rusos y estadounidenses en el Instituto Central de Investigaciones Nucleares de Dubná, Rusia.4​ En un experimento en 2011, se creó directamente uno de sus productos de desintegración, confirmando parcialmente los resultados del experimento inicial; el experimento, además, fue repetido con éxito en 2012. En 2014, el Centro GSI Helmholtz para la Investigación de Iones Pesados de Alemania también afirmó haber reproducido el experimento original.5</descripcion>
+      <rutaImagen>img/Ts.png</rutaImagen>
+   </Element>
+</xml>
+

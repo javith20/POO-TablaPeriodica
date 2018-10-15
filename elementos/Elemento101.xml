@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Mendelevio</nombre>
+      <simbolo>Md</simbolo>
+      <numeroAtomico>101</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>258.1u</masaAtomica>
+      <descripcion>El mendelevio es el noveno elemento transuránido descubierto de la serie de los actínidos. Lo identificaron Albert Ghiorso, Bernard G. Harvey, Gregory R. Choppin, Stanley G. Thompson y Glenn T. Seaborg el 19 de febrero de 1955 mediante el bombardeo del isótopo einstenio-253 con iones helio en el ciclotrón de 60 pulgadas de la Universidad de California en Berkeley. El isótopo producido fue el 256-Md (vida media de 76 minutos). </descripcion>
+      <rutaImagen>img/Md.jpg</rutaImagen>
+   </Element>
+</xml>
+

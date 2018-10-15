@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Californio</nombre>
+      <simbolo>Cf</simbolo>
+      <numeroAtomico>98</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>251u</masaAtomica>
+      <descripcion>Existen dos estructuras cristalinas para el californio a presión normal: una por encima y otra por debajo de los 900 °C. A altas presiones aparece una tercera forma. El californio pierde su brillo lentamente en contacto con el aire a temperatura ambiente. Los compuestos del californio tienen en su mayoría una forma química del elemento, denominada californio (III), la cual puede participar en tres enlaces químicos. </descripcion>
+      <rutaImagen>img/Cf.jpg</rutaImagen>
+   </Element>
+</xml>
+

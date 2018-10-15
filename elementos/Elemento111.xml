@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Roentgenio</nombre>
+      <simbolo>Rg</simbolo>
+      <numeroAtomico>111</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>11</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>281u</masaAtomica>
+      <descripcion>Fue descubierto en 1994 por científicos alemanes en Darmstadt. En noviembre del 2004 recibió el nombre de roentgenio en honor a Wilhelm Conrad Roentgen (1845-1923), premio Nobel de Física, descubridor de los rayos X. El roentgenio se obtiene a través del bombardeo de hojas de bismuto (Bi) con iones de níquel (Ni), decayendo en 15 milisegundos.</descripcion>
+      <rutaImagen>img/RG.jpg</rutaImagen>
+   </Element>
+</xml>
+

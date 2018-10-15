@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Flerovio</nombre>
+      <simbolo>Fl</simbolo>
+      <numeroAtomico>116</numeroAtomico>
+      <bloque>p</bloque>
+      <grupo>16</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>287u</masaAtomica>
+      <descripcion>Hasta la fecha se han observado alrededor de 80 desintegraciones de átomos de flerovio, 50 de ellas directamente y 30 de la desintegración de los elementos más pesados Livermorio y Ununoctio. Todas las desintegraciones han sido asignados a los cuatro isótopos vecinos con números de masa 286-289.</descripcion>
+      <rutaImagen>img/Fl.png</rutaImagen>
+   </Element>
+</xml>
+

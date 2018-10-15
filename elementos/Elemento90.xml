@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Torio</nombre>
+      <simbolo>Th</simbolo>
+      <numeroAtomico>90</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>232,0381u</masaAtomica>
+      <descripcion>El torio se llamó así en honor de Thor, el dios nórdico del relámpago y la tormenta. Jöns Jakob Berzelius lo aisló por primera vez en 1828. En el último decenio del siglo XIX, los investigadores Pierre Curie y Marie Curie descubrieron que este elemento emitía radiactividad.2​</descripcion>
+      <rutaImagen>img/Th.jpg</rutaImagen>
+   </Element>
+</xml>
+

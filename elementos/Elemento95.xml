@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Americio</nombre>
+      <simbolo>Am</simbolo>
+      <numeroAtomico>95</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>243u</masaAtomica>
+      <descripcion>El americio fue aislado por primera vez por Glenn T. Seaborg, Leon O. Morgan, Ralph A. James, y Albert Ghiorso en 1944 en el Laboratorio de Metalurgia de la Universidad de Chicago. El equipo creó el isótopo 241Am a partir de 239Pu, bombardeándolo con neutrones en un reactor nuclear. Esto se transformó en 240Pu y después en 241Pu, cambiando así a 241Am por desintegración beta.1​2​ Seaborg obtuvo la patente US 3156523 para "Element 95 and Method of Producing Said Element" (Elemento 95 y el método para producir dicho elemento). </descripcion>
+      <rutaImagen>img/Am.jpg</rutaImagen>
+   </Element>
+</xml>
+

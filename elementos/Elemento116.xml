@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Livermorio</nombre>
+      <simbolo>Lv</simbolo>
+      <numeroAtomico>116</numeroAtomico>
+      <bloque>p</bloque>
+      <grupo>16</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>291u</masaAtomica>
+      <descripcion>En 1999, investigadores del Laboratorio Nacional Lawrence Berkeley anunciaron la creación del elemento 116, en un artículo publicado en una revista de los EEUU llamada Physical Review Letters, explican que lo hicieron cuando se observó el decaimiento-α de un átomo de mayor número atómico. El año siguiente publicaron su retracción tras ver que no eran capaces de volver a hacer el experimento.3​ En junio de 2002, el director del laboratorio anunció que los datos del experimento habían sido falseados por su autor principal Victor Ninov.</descripcion>
+      <rutaImagen>img/Ts.png</rutaImagen>
+   </Element>
+</xml>
+

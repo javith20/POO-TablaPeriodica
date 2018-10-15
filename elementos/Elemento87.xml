@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Francio</nombre>
+      <simbolo>Fr</simbolo>
+      <numeroAtomico>87</numeroAtomico>
+      <bloque>s</bloque>
+      <grupo>1</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>223u</masaAtomica>
+      <descripcion>Ya en 1870, los químicos pensaban que debía existir un metal alcalino más allá del cesio, con un número atómico de 87.4​ Se le denominaba con el nombre provisional de eka-cesio.19​ Algunos equipos de investigación intentaron localizar y aislar el elemento en cuestión y se tiene constancia de al menos cuatro anuncios públicos falsos que proclamaban haber descubierto dicho elemento antes de que fuera realmente descubierto.</descripcion>
+      <rutaImagen>img/Fr.png</rutaImagen>
+   </Element>
+</xml>
+

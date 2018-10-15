@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Oro</nombre>
+      <simbolo>Au</simbolo>
+      <numeroAtomico>79</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>11</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>196,966569(4)u</masaAtomica>
+      <descripcion>Es un metal de transición blando, brillante, amarillo, pesado, maleable y dúctil. El oro no reacciona con la mayoría de los productos químicos, pero es sensible y soluble al cianuro, al mercurio, al agua regia, al cloro y a la lejía. Este metal se encuentra normalmente en estado puro, en forma de pepitas y depósitos aluviales. Es un elemento que se crea gracias a las condiciones extremas en el núcleo colapsante de las supernovas. Cuando la reacción de una fusión nuclear cesa, las capas superiores de la estrella se desploman sobre el núcleo estelar, comprimiendo y calentando la materia hasta el punto de que los núcleos más ligeros, como por ejemplo el hierro, se fusionan para dar lugar a los metales más pesados (uranio, oro, etc.). Un estudio sugiere que el oro del planeta provino de la colisión de estrellas de neutrones.1</descripcion>
+      <rutaImagen>img/Au.jpg</rutaImagen>
+   </Element>
+</xml>
+

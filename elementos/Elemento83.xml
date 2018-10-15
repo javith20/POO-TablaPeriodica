@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Bismuto</nombre>
+      <simbolo>Bi</simbolo>
+      <numeroAtomico>83</numeroAtomico>
+      <bloque>p</bloque>
+      <grupo>15</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>208,98038u</masaAtomica>
+      <descripcion>El bismuto es uno de los primeros diez metales que fueron descubiertos, ya conocido desde la antigüedad, por lo que a ninguna persona se le atribuye su descubrimiento. El elemento se confundió en los primeros tiempos con el estaño y el plomo, debido a su parecido con esos elementos.Georgius Agricola, en De Natura Fossilium (ca. 1546) afirma que el bismuto es un metal distinto en una familia de metales que incluía al estaño y al plomo, basándose en la observación de sus propiedades físicas.1​ Los mineros en la edad de la alquimia también dieron al bismuto el nombre de tectum argenti, o "plata haciéndose", en el sentido de que la plata estaría todavía en proceso de formación dentro de la Tierra.2​3​4​</descripcion>
+      <rutaImagen>img/Bi.jpg</rutaImagen>
+   </Element>
+</xml>
+

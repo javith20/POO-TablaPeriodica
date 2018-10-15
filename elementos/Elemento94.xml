@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Plutonio</nombre>
+      <simbolo>Pu</simbolo>
+      <numeroAtomico>94</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>244u</masaAtomica>
+      <descripcion>El plutonio es un elemento transuránico radiactivo con el símbolo químico Pu y el número atómico 94. Es un metal actínido con apariencia gris plateada que se oscurece cuando es expuesto al aire, formando una capa opaca cuando se oxida. El elemento normalmente exhibe seis estados alotrópicos y cuatro de oxidación. Reacciona con el carbono, los halógenos, nitrógeno y silicio. Cuando se expone al aire húmedo forma óxidos e hidruros que expanden hasta un 70% su volumen, que a su vez, se desprende en forma de polvo que puede inflamarse de forma espontánea. También es un elemento radiactivo y se puede acumular en los huesos. Estas propiedades hacen que manipular plutonio sea peligroso. </descripcion>
+      <rutaImagen>img/Pu.jpg</rutaImagen>
+   </Element>
+</xml>
+

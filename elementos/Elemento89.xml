@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Actinio</nombre>
+      <simbolo>Ac</simbolo>
+      <numeroAtomico>89</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>227u</masaAtomica>
+      <descripcion>El actinio fue descubierto en 1899 por el químico francés André-Louis Debierne que lo obtuvo de la pechblenda, y lo caracterizó como una sustancia similar al titanio en 1899,7​ y al torio en 1900.8​ En 1902 fue descubierto, de forma independiente, por Friedrich Oscar Giesel como una sustancia muy similar al lantano,9​10​11​ y lo denominó «emanium» en 1904.12​ Luego de realizadas las comparaciones entre estas sustancias en 1904 se determinó que eran idénticas y el nombre propuesto por Debierne fue retenido debido a que tenía prioridad.13​14​ Otros tres elementos fueron descubiertos entre 1898 y 1900: el polonio y el radio (por Marie y Pierre Curie) y el radón, un gas desprendido durante la desintegración radiactiva de algunos elementos más pesados descubierto en 1900 por el químico alemán Friedrich Ernst Dorn (1848–1916).</descripcion>
+      <rutaImagen>img/Ac.jpg</rutaImagen>
+   </Element>
+</xml>
+

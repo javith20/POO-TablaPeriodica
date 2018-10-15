@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Copernicio</nombre>
+      <simbolo>Cn</simbolo>
+      <numeroAtomico>112</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>12</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>285u</masaAtomica>
+      <descripcion>En la tabla periódica, es un elemento transactínido del bloque p, y es miembro del séptimo período dentro del grupo del boro, aunque no se realizó ningún experimento químico que haya confirmado que este se comporte como el homólogo más pesado que el talio dentro de este grupo. Se cree que el nihonio tenga algunas propiedades similares a la de sus homólogos más livianos, es decir, boro, aluminio, galio, indio y talio, aunque también debería mostrar varias diferencias con estos.</descripcion>
+      <rutaImagen>img/Cn.jpg</rutaImagen>
+   </Element>
+</xml>
+

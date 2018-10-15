@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Hafnio</nombre>
+      <simbolo>Hf</simbolo>
+      <numeroAtomico>72</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>4</grupo>
+      <periodo>6</periodo>
+      <masaAtomica> 178,49 u</masaAtomica>
+      <descripcion>Se llamó hafnio por el nombre de Copenhague en latín, Hafnia, la ciudad danesa en donde fue descubierto por Dirk Coster y George Hevesy en 1923. Poco después se predijo, usando la teoría de Bohr, que estaría asociado con el circonio, y finalmente se encontró en el circón mediante unos análisis con espectroscopia de rayos X en Noruega.</descripcion>
+      <rutaImagen>img/Hf.jpg</rutaImagen>
+   </Element>
+</xml>
+

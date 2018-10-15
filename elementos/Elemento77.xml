@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Iridio</nombre>
+      <simbolo>Ir</simbolo>
+      <numeroAtomico>77</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>9</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>195.084 u</masaAtomica>
+      <descripcion>El iridio es un elemento químico de número atómico 77 que se sitúa en el grupo 9 de la tabla periódica. Su símbolo es Ir. Se trata de un metal de transición, del grupo del platino, duro, frágil, pesado, de color blanco plateado. Es el segundo elemento más denso (después del osmio) y es el elemento más resistente a la corrosión, incluso a temperaturas tan altas como 2000 °C. Solo algunos halógenos y sales fundidas son corrosivas para el iridio en estado sólido. El iridio en polvo es mucho más reactivo y puede llegar a ser inflamable.</descripcion>
+      <rutaImagen>img/Ir.jpg</rutaImagen>
+   </Element>
+</xml>
+

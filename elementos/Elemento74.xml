@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Wolframio</nombre>
+      <simbolo>W</simbolo>
+      <numeroAtomico>74</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>6</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>	183,84 u</masaAtomica>
+      <descripcion>En 1779, Peter Woulfe, mientras estudiaba una muestra del mineral wolframita, (Mn, Fe) (WO4), predijo que debía contener un nuevo elemento. Dos años después, en 1781, Carl Wilhelm Scheele y Torbern Bergman sugirieron que se podía encontrar un nuevo elemento reduciendo un ácido (denominado "ácido túngstico") obtenido a partir del mineral scheelita (CaWO4). En 1783, en España, los hermanos Juan José Elhúyar y Fausto Elhúyar encontraron un ácido, a partir de la wolframita, idéntico al ácido túngstico; el primero trajo el mineral consigo de su periplo por las minas y universidades europeas. En Upsala (Suecia) tomó clases con Bergman el cual le habló de sus intuiciones respecto del wolframio. Así, consiguieron aislar el nuevo elemento mediante una reducción con carbón vegetal, en el Real Seminario de Vergara donde tenía su laboratorio la Real Sociedad Bascongada de Amigos del País. Más tarde, publicaron Análisis químico del wolfram y examen de un nuevo metal que entra en su composición describiendo este descubrimiento.</descripcion>
+      <rutaImagen>img/W.jpg</rutaImagen>
+   </Element>
+</xml>
+

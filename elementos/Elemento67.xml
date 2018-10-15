@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Holmio</nombre>
+      <simbolo>Ho</simbolo>
+      <numeroAtomico>67</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>164,9303u</masaAtomica>
+      <descripcion>El holmio es un elemento químico cuyo nombre deriva del nombre en Latín de la ciudad de Estocolmo, Holmia. Fue descubierto por Marc Delafontaine y Jacques-Louis Soret, quienes en 1878 observaron las inusuales bandas de absorción espectrográficas de un elemento entonces desconocido.</descripcion>
+      <rutaImagen>img/Ho.jpg</rutaImagen>
+   </Element>
+</xml>
+

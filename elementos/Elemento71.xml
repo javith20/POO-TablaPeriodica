@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Lutecio</nombre>
+      <simbolo>Lu</simbolo>
+      <numeroAtomico>71</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>3</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>174,967 u</masaAtomica>
+      <descripcion>El lutecio, del latín Lutetia (primer nombre de París), fue descubierto de forma independiente en 1907 por el científico francés Georges Urbain y el mineralogista Carol Auer von Welsbach. Ambos investigadores lo encontraron como impureza del metal iterbio, que el químico suizo Jean Charles Galissard de Marignac y la mayoría de sus colegas habían considerado mineral puro.</descripcion>
+      <rutaImagen>img/Lu.jpg</rutaImagen>
+   </Element>
+</xml>
+

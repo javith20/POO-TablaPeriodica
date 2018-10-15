@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Protactinio</nombre>
+      <simbolo>Pa</simbolo>
+      <numeroAtomico>91</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>231.03588u</masaAtomica>
+      <descripcion>El protactinio fue identificado por primera vez en 1913 cuando Kasimir Fajans y O.H. Göhring encontraron el isótopo de corta vida 234mPa, con una vida media de, en torno, 1,17 minutos, durante sus estudios de la cadena de decaimiento del 238U. Dieron al nuevo elemento el nombre de Brevium (latín: brevis, es decir, breve). El nombre se cambió a Protoactinium (progenitor del actinio) en 1918 cuando dos grupos de científicos (Otto Hahn y Lise Meitner de Alemania, y Frederick Soddy y John Cranston del Reino Unido) descubrieron de manera independiente el 231Pa, y acortaron el nombre a protactinium (en español, protoactinio) en 1949.</descripcion>
+      <rutaImagen>img/Pa.jpg</rutaImagen>
+   </Element>
+</xml>
+

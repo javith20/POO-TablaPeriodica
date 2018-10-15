@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Renio</nombre>
+      <simbolo>Re</simbolo>
+      <numeroAtomico>75</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>7</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>186,207u</masaAtomica>
+      <descripcion>El descubrimiento del renio se les atribuye a los científicos alemanes Ida Eva Tacke, Walter Karl Friedich Noddack y Otto Carl Berg, debido a que en 1925 publicaron que lo habían detectado en minerales de tantalita, wolframita y columbita mediante análisis espectrográficos con rayos X, en las cercanías del Rin —de donde deriva su nombre en latín—.9​10​ Anteriormente, Dmitri Mendeléyev estuvo cerca de haberlo descubierto, pues al tratar de deducir las propiedades de un mineral de alto contenido en renio, pensaba que era un derivado del manganeso, por lo que lo denominó como «dvi-manganeso».</descripcion>
+      <rutaImagen>img/Re.jpg</rutaImagen>
+   </Element>
+</xml>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Plomo</nombre>
+      <simbolo>Pb</simbolo>
+      <numeroAtomico>82</numeroAtomico>
+      <bloque>p</bloque>
+      <grupo>14</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>207,2u</masaAtomica>
+      <descripcion>El plomo es uno de los metales más conocidos desde la antigüedad y el hombre lo empleó tanto por lo mucho que abunda como por su facilidad de fundirse. Suponen que Midácritas fue el primero que lo llevó a Grecia. Plinio el Viejo dice que en la antigüedad se escribía en láminas u hojas de plomo y algunos autores aseguran haber hallado muchos volúmenes de plomo en los cementerios romanos y en las catacumbas de los mártires. El uso de escribir en láminas de plomo es antiquísimo y Pausanias menciona unos libros de Hesíodo escritos sobre hojas de dicho metal. Se han encontrado en York (Inglaterra) láminas de plomo en que estaba grabada una inscripción del tiempo de Domiciano.</descripcion>
+      <rutaImagen>img/Pb.jpg</rutaImagen>
+   </Element>
+</xml>
+

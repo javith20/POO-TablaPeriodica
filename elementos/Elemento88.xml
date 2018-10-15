@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Radio </nombre>
+      <simbolo>Ra</simbolo>
+      <numeroAtomico>88</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>226,0254u</masaAtomica>
+      <descripcion>El radio (del latín radius, rayo) fue descubierto en 1898 por Marie Skłodowska-Curie y su marido Pierre en una variedad de uraninita del norte de Bohemia. Mientras estudiaban el mineral, los Curie retiraron el uranio de él y encontraron que el material restante aún era radiactivo. Entonces produjeron una mezcla radiactiva hecha principalmente de bario que daba un color de llama rojo brillante y líneas espectrales que no se habían documentado anteriormente. En 1910 el radio fue aislado por Curie y Andre Debierne en su metal puro mediante la electrólisis de una solución de cloruro puro de radio usando un cátodo de mercurio y destilando en una atmósfera de hidrógeno.</descripcion>
+      <rutaImagen>img/Ac.jpg</rutaImagen>
+   </Element>
+</xml>
+

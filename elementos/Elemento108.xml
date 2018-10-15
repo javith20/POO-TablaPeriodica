@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Hassio</nombre>
+      <simbolo>Hs</simbolo>
+      <numeroAtomico>108</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>8</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>269u</masaAtomica>
+      <descripcion>El hasio fue sintetizado por primera vez en 1984 por el grupo de investigación alemán Gesellschaft für Schwerionenforschung localizado en Darmstadt. El nombre hasio propuesto por el grupo se debe al estado alemán de Hesse en el que se encuentra el GSI.</descripcion>
+      <rutaImagen>img/Hs.jpg</rutaImagen>
+   </Element>
+</xml>
+

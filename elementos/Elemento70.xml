@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Iterbio</nombre>
+      <simbolo>Yb</simbolo>
+      <numeroAtomico>70</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>3</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>173,04 u</masaAtomica>
+      <descripcion>El iterbio (de Ytterby, una ciudad de Suecia) fue descubierto por el químico suizo Jean Charles Galissard de Marignac en 1878. Marignac encontró un nuevo componente en la tierra entonces llamada erbia, y lo llamó iterbia (por Ytterby, la ciudad sueca en la que encontró dicho componente). Él sospechaba que la iterbia era un compuesto de un nuevo elemento que bautizó iterbio (que era de hecho la primera tierra rara en ser descubierta).</descripcion>
+      <rutaImagen>img/Yb.jpg</rutaImagen>
+   </Element>
+</xml>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Tántalo</nombre>
+      <simbolo>Ta</simbolo>
+      <numeroAtomico>73</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>5</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>	180,9479 u</masaAtomica>
+      <descripcion>El tántalo es un metal gris, brillante, pesado, dúctil, de alto punto de fusión, buen conductor de la electricidad y del calor y muy duro. Es muy resistente al ataque por ácidos; se disuelve empleando ácido fluorhídrico o mediante fusión alcalina. Es muy parecido al niobio y se suele extraer del mineral tantalita, que en la naturaleza aparece generalmente formando mezclas isomorfas con la columbita que se conocen con el nombre de coltán.</descripcion>
+      <rutaImagen>img/Ta.png</rutaImagen>
+   </Element>
+</xml>
+

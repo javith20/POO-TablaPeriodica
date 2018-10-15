@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Seaborgio</nombre>
+      <simbolo>Sg</simbolo>
+      <numeroAtomico>106</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>6</grupo>
+      <periodo>5</periodo>
+      <masaAtomica>269u</masaAtomica>
+      <descripcion>El elemento 106 fue descubierto casi simultáneamente por dos laboratorios. En junio de 1974, un grupo de investigadores norteamericanos liderado por Albert Ghiorso en el Lawrence Radiation Laboratory de la Universidad de California, Berkeley reportó la creación de un isótopo de número de masa 263 y una vida media de 1,0 s. En septiembre de 1974, un equipo soviético liderado por Georgii Flerov en el Instituto Conjunto para la Investigación Nuclear en Dubna reportó que había producido un isótopo de número de masa 259 y una vida media de 0,48 s. </descripcion>
+      <rutaImagen>img/Sg.jpg</rutaImagen>
+   </Element>
+</xml>
+

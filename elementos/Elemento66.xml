@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Disprosio</nombre>
+      <simbolo>Dy</simbolo>
+      <numeroAtomico>66</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>162,500(1) u</masaAtomica>
+      <descripcion>El disprosio es un elemento químico cuyo símbolo es Dy y su número atómico es 66. Es un metal de transición incluido en el grupo de los lantánidos o tierras raras de color blanco plata. Fue identificado por primera vez en 1886 por Paul Émile Lecoq de Boisbaudran, pero no fue posible obtener una muestra pura hasta la década de 1950, con el método de intercambio iónico. En la naturaleza el disprosio se encuentra formado por 7 isótopos, y no existe en la corteza terrestre en forma aislada sino en compuestos junto con otros lantánidos.</descripcion>
+      <rutaImagen>img/Dy.jpg</rutaImagen>
+   </Element>
+</xml>
+

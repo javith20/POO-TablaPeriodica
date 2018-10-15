@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Samario</nombre>
+      <simbolo>Sm</simbolo>
+      <numeroAtomico>62</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>150,35 u</masaAtomica>
+      <descripcion>El samario fue descubierto en 1853 por el químico suizo Jean Charles Galissard de Marignac y aislado en 1879 por el químico Francés Paul Emile Lecoq de Boisbaudran a partir del mineral samarskita. El mineral se encontró inicialmente en los montes Urales y el nombre del mineral y el elemento fue colocado en honor a Samarski, un coronel ruso funcionario de minas.</descripcion>
+      <rutaImagen>img/Sm.jpg</rutaImagen>
+   </Element>
+</xml>
+

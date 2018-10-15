@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Tulio</nombre>
+      <simbolo>Tm</simbolo>
+      <numeroAtomico>69</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>173,04 u</masaAtomica>
+      <descripcion>El tulio es un elemento químico de la tabla periódica cuyo símbolo es Tm y su número atómico es 69.Fue descubierto por Per Teodor Cleve en Suecia en el año 1879. Su nombre procede del antiguo nombre de Escandinavia en latín, Thule, ya que fue descubierto en esa región.El Tulio es el menos abundante de los lantánidos (el prometio es menos abundante que el Tulio, pero no se lo encuentra naturalmente en la Tierra). Es un metal blando, con un lustre gris plateado brillante. A pesar de su alto precio y escasez, el tulio es utilizado como fuente de radiación en los equipos de rayos X portátiles y láseres de estado sólido.</descripcion>
+      <rutaImagen>img/Tm.jpg</rutaImagen>
+   </Element>
+</xml>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Uranio</nombre>
+      <simbolo>U</simbolo>
+      <numeroAtomico>92</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>238,02891u</masaAtomica>
+      <descripcion>El uranio es un elemento químico metálico de color plateado-grisáceo de la serie de los actínidos, su símbolo químico es U y su número atómico es 92. Por ello posee 92 protones y 92 electrones, con una valencia de 6. Su núcleo puede contener entre 142 y 146 neutrones, sus isótopos más abundantes son el 238U que posee 146 neutrones y el 235U con 143 neutrones. El uranio tiene el mayor peso atómico de entre todos los elementos que se encuentran en la naturaleza. El uranio es aproximadamente un 70 % más denso que el plomo, aunque menos denso que el oro o el wolframio. Es levemente radiactivo. Fue descubierto como óxido en 1789 por M. H. Klaproth que lo llamó así en el honor del planeta Urano que acababa de ser descubierto en 1781.</descripcion>
+      <rutaImagen>img/U.jpg</rutaImagen>
+   </Element>
+</xml>
+

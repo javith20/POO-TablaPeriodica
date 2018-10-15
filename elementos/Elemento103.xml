@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Lawrencio</nombre>
+      <simbolo>Lr</simbolo>
+      <numeroAtomico>103</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>3</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>262u</masaAtomica>
+      <descripcion>El lawrencio fue sintetizado por primera vez por el equipo de física nuclear del Lawrence Berkeley National Laboratory de la Universidad de California, dirigido por Albert Ghiorso. Los primeros átomos de lawrencio fueron producidos al bombardear un blanco de tres miligramos, compuesto de tres isótopos de californio con núcleos de boro-10 y boro-11 del Acelerador lineal de iones pesados. El equipo sugirió para el elemento el nombre lawrencio, en honor al físico estadounidense Ernest O. Lawrence, y el símbolo «Lw», pero la IUPAC cambió el símbolo a «Lr» en 1963.2​3​ Este fue el elemento más pesado que se sintetizó en la serie de los actínidos. </descripcion>
+      <rutaImagen>img/Lr.jpg</rutaImagen>
+   </Element>
+</xml>
+

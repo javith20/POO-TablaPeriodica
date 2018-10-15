@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Polonio</nombre>
+      <simbolo>Po</simbolo>
+      <numeroAtomico>84</numeroAtomico>
+      <bloque>p</bloque>
+      <grupo>16</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>209.9824u</masaAtomica>
+      <descripcion>También conocido como Radio F, el polonio fue descubierto por Marie Curie-Skłodowska y Pierre Curie en 1898, y fue posteriormente renombrado en honor a la tierra natal de Marie Curie, Polonia. En aquella época, Polonia no era un país independiente y se encontraba bajo el dominio de Rusia, Prusia y Austria, y Marie albergaba la esperanza de que este nombramiento le añadiría notoriedad. Fue el primer elemento cuyo nombre derivaba de una controversia política. Fue el 1º elemento descubierto por el matrimonio Curie mientras investigaban las causas de la radiactividad de la pechblenda. La pechblenda, tras eliminar el uranio y el radio, era incluso más radiactiva que estos elementos juntos. Esto les llevó a encontrar el nuevo elemento. El electroscopio lo mostró separándolo con bismuto.</descripcion>
+      <rutaImagen>img/Po.jpg</rutaImagen>
+   </Element>
+</xml>
+

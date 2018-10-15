@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Osmio</nombre>
+      <simbolo>Os</simbolo>
+      <numeroAtomico>76</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>8</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>190,23u</masaAtomica>
+      <descripcion>En su forma metálica es de color blanco grisáceo, duro y brillante, incluso a altas temperaturas, aunque es difícil encontrarlo en esta forma. Es más fácil obtener osmio en polvo, aunque expuesto al aire tiende a la formación del tetraóxido de osmio, OsO4, compuesto tóxico (peligroso para los ojos), oxidante enérgico, de un olor fuerte, y volátil. En la corteza terrestre se encuentra junto con otros metales del grupo del platino, generalmente aleado con iridio (y otros en menor cantidad). El osmio es otro de los metales aleados al hierro, níquel e iridio y al igual que estos, la mayor cantidad de osmio nativo se encuentra en el núcleo del planeta que por su alta densidad se hundió y pasó a formar parte de sus componentes. Las aleaciones de osmio e iridio en las que hay mayor cantidad de osmio se conocen como osmiridio, contra las que tienen más iridio, llamadas iridiosmio.</descripcion>
+      <rutaImagen>img/Os.jpg</rutaImagen>
+   </Element>
+</xml>
+

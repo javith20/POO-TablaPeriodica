@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Hidrógeno</nombre>
+      <simbolo>H</simbolo>
+      <numeroAtomico>1</numeroAtomico>
+      <bloque>s</bloque>
+      <grupo>1</grupo>
+      <periodo>1</periodo>
+      <masaAtomica>1,00797 u</masaAtomica>
+      <descripcion>El hidrógeno es el elemento químico más abundante, al constituir aproximadamente el 75 % de la materia visible del universo.3​nota 1​ En su secuencia principal, las estrellas están compuestas principalmente por hidrógeno en estado de plasma. El hidrógeno elemental es relativamente raro en la Tierra y es producido industrialmente a partir de hidrocarburos como, por ejemplo, el metano. La mayor parte del hidrógeno elemental se obtiene in situ, es decir, en el lugar y en el momento en que se necesita.</descripcion>
+      <rutaImagen>img/H.jpg</rutaImagen>
+   </Element>
+</xml>
+

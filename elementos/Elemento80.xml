@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Mercurio</nombre>
+      <simbolo>Hg</simbolo>
+      <numeroAtomico>80</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>12</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>200,59u</masaAtomica>
+      <descripcion>El mercurio es un elemento químico con el símbolo Hg y número atómico 80. En la literatura antigua era designado comúnmente como plata líquida y también como azogue o hidrargiro.1​ Elemento de aspecto plateado, metal pesado perteneciente al bloque D de la tabla periódica, el mercurio es el único elemento metálico que es líquido en condiciones estándar de laboratorio; el único otro elemento que es líquido bajo estas condiciones es el bromo (un no metal), aunque otros metales como el cesio, el galio, y el rubidio se funden a temperaturas ligeramente superiores.</descripcion>
+      <rutaImagen>img/Hg.jpg</rutaImagen>
+   </Element>
+</xml>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Fermio</nombre>
+      <simbolo>Fm</simbolo>
+      <numeroAtomico>100</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>257u</masaAtomica>
+      <descripcion>El fermio no se encuentra en la naturaleza; su descubrimiento y producción se alcanza por transmutación nuclear artificial de elementos más ligeros. Se han descubierto los isótopos radiactivos de número de masa 244-259. El peso total del fermio que ha sido sintetizado es mucho menor de una millonésima de gramo.	La fisión espontánea es el modo principal de decaimiento para 244Fm, 256Fm y 258Fm. El isótopo con vida más larga es 257Fm, el cual tiene una vida media de unos 100 días. El fermio -258 decae por fisión espontánea y tiene una vida media de 0.38 milisegundos. Esto sugiere la existencia de una anormalidad en este punto en la tabla periódica.  </descripcion>
+      <rutaImagen>img/Fm.jpg</rutaImagen>
+   </Element>
+</xml>
+

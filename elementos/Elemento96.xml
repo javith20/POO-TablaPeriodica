@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Curio</nombre>
+      <simbolo>Cm</simbolo>
+      <numeroAtomico>96</numeroAtomico>
+      <bloque>f</bloque>
+      <grupo>-</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>247u</masaAtomica>
+      <descripcion>El curio fue sintetizado por primera vez en la Universidad de California, Berkeley, también por Glenn T. Seaborg, Ralph A. James y Albert Ghiorso en 1944. Se eligió el nombre curio en honor a Marie Curie y su marido Pierre, famosos por descubrir el radio y por otros importantes trabajos sobre radiactividad. </descripcion>
+      <rutaImagen>img/Cm.jpg</rutaImagen>
+   </Element>
+</xml>
+

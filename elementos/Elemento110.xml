@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Darmstatio</nombre>
+      <simbolo>Ds</simbolo>
+      <numeroAtomico>110</numeroAtomico>
+      <bloque>d</bloque>
+      <grupo>10</grupo>
+      <periodo>7</periodo>
+      <masaAtomica>281u</masaAtomica>
+      <descripcion>Fue sintetizado por primera vez el lunes 9 de noviembre de 1994 en la Gesellschaft für Schwerionenforschung en Darmstadt, Alemania, por P. Armbruster, S. Hofmann, G. Münzenberg y otros.4​ Nunca ha sido visto y sólo unos pocos átomos del mismo han sido creados por el bombardeo de isótopos de plomo (208Pb) con iones acelerados de níquel (62Ni, 311 MeV), en un acelerador de iones pesados. El elemento fue nombrado en honor al lugar donde fue descubierto, Darmstadt, por la IUPAC en Agosto de 2003. </descripcion>
+      <rutaImagen>img/Ds.jpg</rutaImagen>
+   </Element>
+</xml>
+

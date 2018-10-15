@@ -5,13 +5,9 @@
  */
 package Archivos;
 
-import com.sun.xml.internal.ws.api.pipe.Fiber;
 import java.io.File;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
-import javax.swing.JOptionPane;
+
 
 /**
  *
@@ -19,35 +15,30 @@ import javax.swing.JOptionPane;
  */
 public class AdministradorArchivos {
 
-    private final File dirElementos = new File("BaseDatos//Vehiculos//");
-    
+    private final File dirElementos = new File("elementos/");
 
     private LectorXML lectorXML;
-    private SimpleDateFormat formatoString = new SimpleDateFormat("dd/MM/yyyy");
 
-    private ArrayList<Elemento> Elemento = new ArrayList<>();
-    
+    private ArrayList<Element> Elementos = new ArrayList<>();
 
     public AdministradorArchivos() {
         lectorXML = new LectorXML();
         cargarElementos();
-       
     }
 
     private void cargarElementos() {
-        ArrayList<String> aux; 
+        ArrayList<String> aux;
         //Recorre lista de atributos de el xml
         for (int indice = 0; dirElementos.list().length > indice; indice++) {
-            aux = lectorXML.getListaElementos(dirElementos.getAbsolutePath() + "\\" + dirElementos.list()[indice], "Vehiculo");
-            Elemento nuevo;
-            nuevo = new Elemento(aux.get(0), aux.get(1), aux.get(2), Integer.parseInt(aux.get(3)), Integer.parseInt(aux.get(4)), Double.parseDouble(aux.get(5)), aux.get(6), aux.get(7), aux.get(8));
+            aux = lectorXML.getListaElementos(dirElementos.getAbsolutePath() + "\\" + dirElementos.list()[indice], "Element");
+            Element nuevo;
+            nuevo = new Element(aux.get(0), aux.get(1), Integer.parseInt(aux.get(2)), aux.get(3), aux.get(4), aux.get(5), aux.get(6), aux.get(8),aux.get(7));
             aux.clear();
-            Elemento.add(nuevo);
+            Elementos.add(nuevo);
         }
     }
 
-    
-    public ArrayList<Elemento> getViajes() {
+    public ArrayList<Element> getElementos() {
         return Elementos;
     }
 

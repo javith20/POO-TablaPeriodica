@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+   <Element>
+      <nombre>Ástato</nombre>
+      <simbolo>At</simbolo>
+      <numeroAtomico>85</numeroAtomico>
+      <bloque>p</bloque>
+      <grupo>17</grupo>
+      <periodo>6</periodo>
+      <masaAtomica>210u</masaAtomica>
+      <descripcion>El ástato (del griego Anderson, astatos, que significa inestable) fue sintetizado por primera vez en 1940 por Dale R. Corson, K. R. MacKenzie y Emilio Segrè en la Universidad de Berkeley (California), bombardeando bismuto con partículas alfa. Un primer nombre para el elemento fue alabamio (Ab).</descripcion>
+      <rutaImagen>img/At.jpg</rutaImagen>
+   </Element>
+</xml>
+
